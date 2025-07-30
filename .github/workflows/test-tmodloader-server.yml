@@ -1,118 +1,34 @@
-# GitHub Actions workflow – run tModLoader server for 30 s, send "exit",
-# give it 10 s to shut down, commit any files the server created/modified.
-
-name: Test tModLoader server (30-second test, auto-commit outputs)
+name: Run tModLoader Server
 
 on:
-  workflow_dispatch:      # Trigger manually from the Actions tab.
+  workflow_dispatch:
 
 jobs:
   run-server:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-      # 1. Check out the repository (fast, required for script access)
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      # 2. Start the server, wait 30 s, send "exit", wait 10 s
-      - name: Launch server ➜ wait 30 s ➜ exit ➜ wait 10 s
-        shell: bash
+      - name: Run tModLoader Server and Handle Cancellation
         run: |
-          set -euo pipefail
+          chmod +x start-tModLoaderServer.sh
 
-          # Ensure the launcher script is executable
-          chmod +x ./start-tModLoaderServer.sh
+          # Create a named pipe (FIFO) for server input
+          mkfifo server_input
 
-          # Create a named pipe (FIFO) for feeding stdin to the server
-          pipe="control.pipe"
-          mkfifo "$pipe"
-          # Open the pipe for writing and keep it open. This is the crucial step.
-          exec 3>"$pipe"
+          # Setup a trap to catch the TERM signal (sent on workflow cancellation)
+          # This will send the 'exit' command to the server for a graceful shutdown.
+          trap 'echo "Workflow cancelled. Sending exit command to server..."; echo "exit" > server_input; sleep 5' TERM
 
-          # Graceful shutdown on cancel/interrupt
-          cleanup() {
-            echo "Graceful shutdown requested…"
-            # tell server to exit and give it time to save
-            echo "exit" >&3 || true
-            exec 3>&- # Close the pipe
-            sleep 10
-          }
-          trap cleanup INT TERM
+          # Start the server in the background, with its stdin redirected from the named pipe.
+          # The '&' is important to run it in the background so the script can continue to the 'wait' command.
+          ./start-tModLoaderServer.sh < server_input &
 
-          # Start the server in the background with output redirected for live logging
-          stdbuf -o0 -e0 ./start-tModLoaderServer.sh <"$pipe" &
-          srv_pid=$!
-          echo "Server started with PID $srv_pid"
+          # Save the server's process ID
+          server_pid=$!
 
-          # --- Wait for server to be ready, then run for 30s ---
-          echo "Waiting for server to report 'Listening on port 7777'..."
-          # Prefer server.log, but check Launch.log during startup
-          server_log_path="$GITHUB_WORKSPACE/tModLoader-Logs/server.log"
-          launch_log_path="$GITHUB_WORKSPACE/tModLoader-Logs/Launch.log"
-          
-          timeout_seconds=180
-          server_ready=false
+          # Wait for the server process to finish.
+          # The 'wait' command will be interrupted by the trap if the workflow is cancelled.
+          wait $server_pid
 
-          for ((i=0; i<timeout_seconds; i+=5)); do
-            # Check both log files for the readiness message
-            if ( [ -f "$server_log_path" ] && grep -q "Listening on port 7777" "$server_log_path" ) || \
-               ( [ -f "$launch_log_path" ] && grep -q "Listening on port 7777" "$launch_log_path" ); then
-              echo "Server is ready! Running for an additional 30 seconds."
-              server_ready=true
-              break
-            fi
-            echo "Still waiting... (${i}s / ${timeout_seconds}s)"
-            sleep 5
-          done
-
-          if [ "$server_ready" = false ]; then
-            echo "::error::Server failed to start within ${timeout_seconds} seconds."
-            if [ -f "$launch_log_path" ]; then
-              echo "::group::Dumping Launch.log"
-              cat "$launch_log_path"
-              echo "::endgroup::"
-            fi
-            exit 1
-          fi
-
-          sleep 30
-
-          # --- Send the 'exit' command through the now-open pipe ---
-          echo "exit" >&3
-          # --- Close the pipe and clean up ---
-          exec 3>&-
-          echo "'exit' sent; allowing 10 s for graceful shutdown …"
-          sleep 10
-
-          # --- Wait for the server process to end ------------------------
-          wait $srv_pid
-          echo "Server stopped gracefully."
-
-          # Clean up
-          rm -f "$pipe"
-
-      # 3. Commit and push any files the server generated or modified
-      - name: Commit & push generated files back to repo
-        if: always()   # Only run if previous step succeeded
-        shell: bash
-        env:
-          GIT_AUTHOR_NAME: GitHub Actions
-          GIT_AUTHOR_EMAIL: actions@github.com
-          GIT_COMMITTER_NAME: GitHub Actions
-          GIT_COMMITTER_EMAIL: actions@github.com
-        run: |
-          set -e
-          # Stage all changes (new, modified, deleted files)
-          git add -A
-
-          # If nothing changed, exit quietly
-          if git diff --cached --quiet; then
-            echo "No changes detected – nothing to commit."
-            exit 0
-          fi
-
-          # Commit and push
-          git commit -m "chore: auto-commit tModLoader outputs [skip ci]"
-          git push
