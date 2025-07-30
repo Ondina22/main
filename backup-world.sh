@@ -5,7 +5,7 @@
 cd "$(dirname "$0")" || exit
 
 # Make sure we have a world name to work with from the server config.
-world_file_path=$(grep '^world=' serverconfig.txt | cut -d'=' -f2)
+world_file_path=$(grep '^world=' serverconfig.txt | cut -d'=' -f2 | tr -d '\r')
 
 if [ -z "$world_file_path" ]; then
     echo "Could not find 'world=' entry in serverconfig.txt"
