@@ -17,7 +17,7 @@ jobs:
       # 1. Check out the repository (fast, required for script access)
       - uses: actions/checkout@v4
 
-      # 2. Start the server, wait 30 s, send "exit", wait 10 s
+      # 2. Start the server, wait 60 s, send "exit", wait 10 s
       - name: Launch server ➜ wait 60 s ➜ exit ➜ wait 10 s
         shell: bash
         run: |
@@ -29,12 +29,15 @@ jobs:
           # Create a named pipe (FIFO) for feeding stdin to the server
           pipe="control.pipe"
           mkfifo "$pipe"
+          # Open pipe for writing so that the reader side (server stdin) doesn't block
+          exec 3>"$pipe"
 
           # Graceful shutdown on cancel/interrupt
           cleanup() {
             echo "Graceful manual shutdown requested…"
             # tell server to exit and give it time to save
-            echo "exit" >"$pipe" || true
+            echo "exit" >&3 || true
+            exec 3>&-
             sleep 10
           }
           trap cleanup INT TERM
@@ -62,7 +65,8 @@ jobs:
           done
 
           # --- Send the 'exit' command through the FIFO ------------------
-          echo "exit" >"$pipe"
+          echo "exit" >&3
+          exec 3>&-
           echo "'exit' sent; allowing 10 s for graceful shutdown …"
           sleep 10
 
