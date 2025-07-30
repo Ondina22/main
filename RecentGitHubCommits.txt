@@ -1,0 +1,10 @@
+304e5c71d25e7a266270bd69657a2ff632a12558 Fix ModProjectile.GlowTexture not drawing for projectiles with multiple frames
+9d0f286dadc5022108bb6847ffa03cf9edfe79f9 Update zh-Hans tModLoader.json (#4666)
+019fe4101c8bee4ae8cb620ab55bc7cbe727556f Fix #4660
+cae9ce0d00471c26bca48a5c7420752d8920d9a8 Fix another map file saving issue if loading corrupted map file
+aed4ee2d7a698d0908c63ab5be5568906f0595ac Update ru-RU tModLoader.json (#4661)
+97b738ac27d977ec3ad563373333e88a16c688f7 Add note about ItemID.Sets.Deprecated not being fully supported yet.
+7cacddb248c9c278ef8f33bf8841c87dda0630d7 Clarify ModPlayer.HideDrawLayers usage
+fae64e19d16c956bdf637c63a3d29d77d225b648 Fix patch error from previous commit
+f64e58909d1700423abf93f9a3d72bb44b22b5fb Tile Placement Preview Draw Hooks (#4598)
+1a0c5e0102a91379ebe7e2ffcc9ce5d9f6e11a6f Add equipment loadouts support for ModAccessorySlot (#4340)

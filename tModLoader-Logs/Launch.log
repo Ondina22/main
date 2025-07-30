@@ -1,0 +1,149 @@
+Logging to /workspaces/main/tModLoader-Logs/Launch.log
+Fixing Environment Issues
+Success!
+Verifying .NET....
+Parsing .NET version requirements from runtimeconfig.json
+Success! dotnet_version=8.0.0
+Last Run Attempt Failed to Start tModLoader. Deleting dotnet_dir and resetting
+Checking for old .NET versions to remove from folder
+Cleanup Complete
+Checking dotnet install...
+Update Required. Will now attempt downloading using official scripts.
+This can take up to 5 minutes
+dotnet-install: Note that the intended use of this script is for Continuous Integration (CI) scenarios, where:
+dotnet-install: - The SDK needs to be installed without user interaction and without admin rights.
+dotnet-install: - The SDK installation doesn't need to persist across multiple CI runs.
+dotnet-install: To set up a development environment or to run apps, use installers rather than this script. Visit https://dotnet.microsoft.com/download to get the installer.
+
+dotnet-install: Calling: machine_has curl
+dotnet-install: Calling: calculate_vars 
+dotnet-install: Calling: get_normalized_architecture_from_architecture <auto>
+dotnet-install: Calling: get_machine_architecture 
+dotnet-install: Normalized architecture: 'x64'.
+dotnet-install: Calling: get_normalized_os 
+dotnet-install: Calling: get_current_os_name 
+dotnet-install: Calling: get_linux_platform_name 
+dotnet-install: Normalized OS: 'linux'.
+dotnet-install: Calling: get_normalized_quality 
+dotnet-install: Normalized quality: ''.
+dotnet-install: Calling: get_normalized_channel 8.0
+dotnet-install: Normalized channel: '8.0'.
+dotnet-install: Calling: get_normalized_product dotnet
+dotnet-install: Normalized product: 'dotnet-runtime'.
+dotnet-install: Calling: resolve_installation_path /workspaces/main/dotnet
+dotnet-install: InstallRoot: '/workspaces/main/dotnet'.
+dotnet-install: Calling: get_normalized_architecture_for_specific_sdk_version 8.0.0 8.0 x64
+dotnet-install: Calling: get_current_os_name 
+dotnet-install: Calling: get_linux_platform_name 
+dotnet-install: Calling: get_specific_version_from_version https://builds.dotnet.microsoft.com/dotnet 8.0 x64 8.0.0 
+dotnet-install: Calling: get_specific_product_version https://builds.dotnet.microsoft.com/dotnet 8.0.0
+dotnet-install: Calling: get_specific_product_version_url https://builds.dotnet.microsoft.com/dotnet 8.0.0 true 
+dotnet-install: Constructed productVersion link: https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.0/runtime-productVersion.txt
+dotnet-install: Calling: get_specific_product_version_url https://builds.dotnet.microsoft.com/dotnet 8.0.0 false 
+dotnet-install: Constructed productVersion link: https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.0/productVersion.txt
+dotnet-install: Checking for the existence of https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.0/runtime-productVersion.txt
+dotnet-install: Calling: machine_has curl
+dotnet-install: specific_version=8.0.0
+dotnet-install: Calling: construct_download_link https://builds.dotnet.microsoft.com/dotnet 8.0 x64 8.0.0 linux
+dotnet-install: Calling: get_specific_product_version https://builds.dotnet.microsoft.com/dotnet 8.0.0
+dotnet-install: Calling: get_specific_product_version_url https://builds.dotnet.microsoft.com/dotnet 8.0.0 true 
+dotnet-install: Constructed productVersion link: https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.0/runtime-productVersion.txt
+dotnet-install: Calling: get_specific_product_version_url https://builds.dotnet.microsoft.com/dotnet 8.0.0 false 
+dotnet-install: Constructed productVersion link: https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.0/productVersion.txt
+dotnet-install: Checking for the existence of https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.0/runtime-productVersion.txt
+dotnet-install: Calling: machine_has curl
+dotnet-install: Constructed primary named payload URL: https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.0/dotnet-runtime-8.0.0-linux-x64.tar.gz
+dotnet-install: Calling: construct_legacy_download_link https://builds.dotnet.microsoft.com/dotnet 8.0 x64 8.0.0
+dotnet-install: Calling: get_legacy_os_name 
+dotnet-install: Calling: get_legacy_os_name_from_platform ubuntu.24.04
+dotnet-install: Distribution specific OS name and version could not be detected: UName = Linux
+dotnet-install: Could not construct a legacy_download_link; omitting...
+dotnet-install: Calling: is_dotnet_package_installed /workspaces/main/dotnet shared/Microsoft.NETCore.App 8.0.0
+dotnet-install: Calling: combine_paths /workspaces/main/dotnet shared/Microsoft.NETCore.App
+dotnet-install: combine_paths: root_path=/workspaces/main/dotnet
+dotnet-install: combine_paths: child_path=shared/Microsoft.NETCore.App
+dotnet-install: Calling: combine_paths /workspaces/main/dotnet/shared/Microsoft.NETCore.App 8.0.0
+dotnet-install: combine_paths: root_path=/workspaces/main/dotnet/shared/Microsoft.NETCore.App
+dotnet-install: combine_paths: child_path=8.0.0
+dotnet-install: is_dotnet_package_installed: dotnet_package_path=/workspaces/main/dotnet/shared/Microsoft.NETCore.App/8.0.0
+dotnet-install: Calling: get_specific_version_from_version https://ci.dot.net/public 8.0 x64 8.0.0 
+dotnet-install: Calling: get_specific_product_version https://ci.dot.net/public 8.0.0
+dotnet-install: Calling: get_specific_product_version_url https://ci.dot.net/public 8.0.0 true 
+dotnet-install: Constructed productVersion link: https://ci.dot.net/public/Runtime/8.0.0/runtime-productVersion.txt
+dotnet-install: Calling: get_specific_product_version_url https://ci.dot.net/public 8.0.0 false 
+dotnet-install: Constructed productVersion link: https://ci.dot.net/public/Runtime/8.0.0/productVersion.txt
+dotnet-install: Checking for the existence of https://ci.dot.net/public/Runtime/8.0.0/runtime-productVersion.txt
+dotnet-install: Calling: machine_has curl
+dotnet-install: Checking for the existence of https://ci.dot.net/public/Runtime/8.0.0/productVersion.txt
+dotnet-install: Calling: machine_has curl
+dotnet-install: Failed to get the version using productVersion.txt file. Download link will be parsed instead.
+dotnet-install: Calling: get_product_specific_version_from_download_link  8.0.0
+dotnet-install: specific_version=8.0.0
+dotnet-install: Calling: construct_download_link https://ci.dot.net/public 8.0 x64 8.0.0 linux
+dotnet-install: Calling: get_specific_product_version https://ci.dot.net/public 8.0.0
+dotnet-install: Calling: get_specific_product_version_url https://ci.dot.net/public 8.0.0 true 
+dotnet-install: Constructed productVersion link: https://ci.dot.net/public/Runtime/8.0.0/runtime-productVersion.txt
+dotnet-install: Calling: get_specific_product_version_url https://ci.dot.net/public 8.0.0 false 
+dotnet-install: Constructed productVersion link: https://ci.dot.net/public/Runtime/8.0.0/productVersion.txt
+dotnet-install: Checking for the existence of https://ci.dot.net/public/Runtime/8.0.0/runtime-productVersion.txt
+dotnet-install: Calling: machine_has curl
+dotnet-install: Checking for the existence of https://ci.dot.net/public/Runtime/8.0.0/productVersion.txt
+dotnet-install: Calling: machine_has curl
+dotnet-install: Failed to get the version using productVersion.txt file. Download link will be parsed instead.
+dotnet-install: Calling: get_product_specific_version_from_download_link  8.0.0
+dotnet-install: Constructed primary named payload URL: https://ci.dot.net/public/Runtime/8.0.0/dotnet-runtime-8.0.0-linux-x64.tar.gz
+dotnet-install: Calling: construct_legacy_download_link https://ci.dot.net/public 8.0 x64 8.0.0
+dotnet-install: Calling: get_legacy_os_name 
+dotnet-install: Calling: get_legacy_os_name_from_platform ubuntu.24.04
+dotnet-install: Distribution specific OS name and version could not be detected: UName = Linux
+dotnet-install: Could not construct a legacy_download_link; omitting...
+dotnet-install: Calling: is_dotnet_package_installed /workspaces/main/dotnet shared/Microsoft.NETCore.App 8.0.0
+dotnet-install: Calling: combine_paths /workspaces/main/dotnet shared/Microsoft.NETCore.App
+dotnet-install: combine_paths: root_path=/workspaces/main/dotnet
+dotnet-install: combine_paths: child_path=shared/Microsoft.NETCore.App
+dotnet-install: Calling: combine_paths /workspaces/main/dotnet/shared/Microsoft.NETCore.App 8.0.0
+dotnet-install: combine_paths: root_path=/workspaces/main/dotnet/shared/Microsoft.NETCore.App
+dotnet-install: combine_paths: child_path=8.0.0
+dotnet-install: is_dotnet_package_installed: dotnet_package_path=/workspaces/main/dotnet/shared/Microsoft.NETCore.App/8.0.0
+dotnet-install: Generated 2 links.
+dotnet-install: Link 0: primary, 8.0.0, https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.0/dotnet-runtime-8.0.0-linux-x64.tar.gz
+dotnet-install: Link 1: primary, 8.0.0, https://ci.dot.net/public/Runtime/8.0.0/dotnet-runtime-8.0.0-linux-x64.tar.gz
+dotnet-install: Calling: install_dotnet 
+dotnet-install: Archive path: /tmp/dotnet.TlLklQ8CK
+dotnet-install: Attempting to download using primary link https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.0/dotnet-runtime-8.0.0-linux-x64.tar.gz
+dotnet-install: Calling: download https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.0/dotnet-runtime-8.0.0-linux-x64.tar.gz /tmp/dotnet.TlLklQ8CK
+dotnet-install: Calling: machine_has curl
+dotnet-install: Calling: downloadcurl https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.0/dotnet-runtime-8.0.0-linux-x64.tar.gz /tmp/dotnet.TlLklQ8CK
+dotnet-install: Calling: machine_has curl
+dotnet-install: Remote file https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.0/dotnet-runtime-8.0.0-linux-x64.tar.gz size is 31389185 bytes.
+dotnet-install: Extracting archive from https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.0/dotnet-runtime-8.0.0-linux-x64.tar.gz
+dotnet-install: Calling: extract_dotnet_package /tmp/dotnet.TlLklQ8CK /workspaces/main/dotnet 31389185
+dotnet-install: Calling: copy_files_or_dirs_from_list /tmp/dotnet.0qWwbugDl /workspaces/main/dotnet false
+dotnet-install: Calling: get_cp_options false
+dotnet-install: Calling: copy_files_or_dirs_from_list /tmp/dotnet.0qWwbugDl /workspaces/main/dotnet true
+dotnet-install: Calling: get_cp_options true
+dotnet-install: Calling: validate_remote_local_file_sizes /tmp/dotnet.TlLklQ8CK 31389185
+dotnet-install: Downloaded file size is 31389185 bytes.
+dotnet-install: The remote and local file sizes are equal.
+dotnet-install: Temporary archive file /tmp/dotnet.TlLklQ8CK was removed
+dotnet-install: Checking installation: version = 8.0.0
+dotnet-install: Calling: is_dotnet_package_installed /workspaces/main/dotnet shared/Microsoft.NETCore.App 8.0.0
+dotnet-install: Calling: combine_paths /workspaces/main/dotnet shared/Microsoft.NETCore.App
+dotnet-install: combine_paths: root_path=/workspaces/main/dotnet
+dotnet-install: combine_paths: child_path=shared/Microsoft.NETCore.App
+dotnet-install: Calling: combine_paths /workspaces/main/dotnet/shared/Microsoft.NETCore.App 8.0.0
+dotnet-install: combine_paths: root_path=/workspaces/main/dotnet/shared/Microsoft.NETCore.App
+dotnet-install: combine_paths: child_path=8.0.0
+dotnet-install: is_dotnet_package_installed: dotnet_package_path=/workspaces/main/dotnet/shared/Microsoft.NETCore.App/8.0.0
+dotnet-install: Installed version is 8.0.0
+dotnet-install: Calling: combine_paths /workspaces/main/dotnet 
+dotnet-install: combine_paths: root_path=/workspaces/main/dotnet
+dotnet-install: combine_paths: child_path=
+dotnet-install: Calling: get_absolute_path /workspaces/main/dotnet/
+dotnet-install: Adding to current process PATH: `/workspaces/main/dotnet`. Note: This change will be visible only when sourcing script.
+dotnet-install: Note that the script does not resolve dependencies during installation.
+dotnet-install: To check the list of dependencies, go to https://learn.microsoft.com/dotnet/core/install, select your operating system and check the "Dependencies" section.
+dotnet-install: Installation finished successfully.
+Dotnet should be present in "/workspaces/main/dotnet"
+Attempting Launch...
+Launched Using Local Dotnet. Launch command: "/workspaces/main/dotnet/dotnet" tModLoader.dll "-server -config serverconfig.txt"

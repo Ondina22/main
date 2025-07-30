@@ -1,0 +1,135 @@
+[15:28:24.531] [Main Thread/INFO] [tML]: Starting tModLoader server 1.4.4.9+2025.05.3.0|2025.05|stable|Stable|304e5c71d25e7a266270bd69657a2ff632a12558|5250555269014555243 built 07/01/2025 00:04
+[15:28:24.539] [Main Thread/INFO] [tML]: Log date: 07/30/2025
+[15:28:24.539] [Main Thread/INFO] [tML]: Running on Linux (v6.8.0.1030) X64 NetCore 8.0.0
+[15:28:24.542] [Main Thread/INFO] [tML]: CPU: 2 processors. RAM: 7.8 GB
+[15:28:24.542] [Main Thread/INFO] [tML]: FrameworkDescription: .NET 8.0.0
+[15:28:24.542] [Main Thread/INFO] [tML]: Executable: /workspaces/main/tModLoader.dll
+[15:28:24.542] [Main Thread/INFO] [tML]: Working Directory: /workspaces/main
+[15:28:24.543] [Main Thread/INFO] [tML]: Launch Parameters: -server -config serverconfig.txt
+[15:28:24.545] [Main Thread/INFO] [tML]: Parsed Launch Parameters: -server -config serverconfig.txt
+[15:28:24.794] [Main Thread/INFO] [tML]: Saves Are Located At: /home/codespace/.local/share/Terraria/tModLoader
+[15:28:24.800] [Main Thread/INFO] [tML]: Finding Mods...
+[15:28:25.335] [Main Thread/INFO] [tML]: Distribution Platform: Steam. Detection method: Terraria.exe or Terraria_v1.4.4.9.exe not found nearby
+[15:28:25.401] [Main Thread/INFO] [tML]: Current 1281930 Workshop Folder Directory: steamapps/workshop
+[15:28:27.373] [Main Thread/DEBUG] [tML]: Network compatibility version is 2025.5.3
+[15:28:28.468] [Main Thread/INFO] [tML]: Finding Mods...
+[15:28:28.471] [Main Thread/WARN] [tML]: Did not find enabled.json file
+[15:28:28.475] [Main Thread/INFO] [tML]: Finding Mods...
+[15:28:28.494] [Main Thread/INFO] [tML]: Constructing Mods...
+[15:28:28.498] [Main Thread/INFO] [tML]: JITModsAsync completed in 0ms
+[15:28:28.502] [Main Thread/INFO] [tML]: Adding Content: ModLoader (tModLoader) v2025.5.3.0
+[15:28:28.562] [Main Thread/INFO] [tML]: Resizing...
+[15:28:28.650] [Main Thread/INFO] [tML]: Configuring Content: ModLoader (tModLoader) v2025.5.3.0
+[15:28:28.739] [Main Thread/INFO] [tML]: Finalizing Content: ModLoader (tModLoader) v2025.5.3.0
+[15:28:29.034] [Main Thread/INFO] [tML]: RAM physical: tModLoader usage: 364.5 MB, All processes usage: 1.1 GB, Available: 6.6 GB, Total Installed: 7.8 GB
+[15:28:29.034] [Main Thread/INFO] [tML]: RAM virtual: tModLoader usage: 422.1 MB, All processes usage: 1.4 GB
+[15:28:29.111] [Main Thread/DEBUG] [tML]: GlobalItem registration stats. Count: 1, Slots per Entity: 1
+	Instanced: 1, Conditional with slot: 0, Conditional by type: 0, Applies to single type: 0
+	List Permutations: 1, Est Memory Consumption: 16 bytes
+[15:28:29.134] [Main Thread/DEBUG] [tML]: GlobalNPC registration stats. Count: 2, Slots per Entity: 1
+	Instanced: 1, Conditional with slot: 0, Conditional by type: 0, Applies to single type: 0
+	List Permutations: 1, Est Memory Consumption: 16 bytes
+[15:28:29.142] [Main Thread/DEBUG] [tML]: GlobalProjectile registration stats. Count: 0, Slots per Entity: 0
+	Instanced: 0, Conditional with slot: 0, Conditional by type: 0, Applies to single type: 0
+	List Permutations: 0, Est Memory Consumption: 0 bytes
+[15:28:29.216] [Main Thread/INFO] [tML]: Adding Recipes...
+[15:28:29.336] [Main Thread/INFO] [tML]: Mod Load Completed in 865ms
+[15:28:57.974] [Main Thread/INFO] [StatusText]: 0.0% -  - 0.
+[15:28:57.982] [.NET TP Worker/INFO] [tML]: Creating world - Seed: 1067846839, Width: 8400, Height: 2400, Evil: -1, IsExpert: True
+[15:28:57.999] [.NET TP Worker/INFO] [Terraria]: Generating World: Nyxane's
+[15:28:58.027] [Main Thread/INFO] [StatusText]: Generating world terrain
+[15:28:59.015] [Main Thread/INFO] [StatusText]: Adding sand
+[15:28:59.409] [Main Thread/INFO] [StatusText]: Generating ocean sand
+[15:28:59.736] [Main Thread/INFO] [StatusText]: Generating hills
+[15:28:59.752] [Main Thread/INFO] [StatusText]: Putting dirt behind dirt
+[15:28:59.899] [Main Thread/INFO] [StatusText]: Placing rocks in the dirt
+[15:29:00.589] [Main Thread/INFO] [StatusText]: Placing dirt in the rocks
+[15:29:01.856] [Main Thread/INFO] [StatusText]: Adding clay
+[15:29:02.042] [Main Thread/INFO] [StatusText]: Making random holes
+[15:29:03.809] [Main Thread/INFO] [StatusText]: Generating small caves
+[15:29:03.976] [Main Thread/INFO] [StatusText]: Generating large caves
+[15:29:05.493] [Main Thread/INFO] [StatusText]: Generating surface caves
+[15:29:05.544] [Main Thread/INFO] [StatusText]: Adding snow
+[15:29:05.638] [Main Thread/INFO] [StatusText]: Generating jungle
+[15:29:12.002] [Main Thread/INFO] [StatusText]: Adding more grass
+[15:29:14.109] [Main Thread/INFO] [StatusText]: Desertification
+[15:29:30.643] [Main Thread/INFO] [StatusText]: Generating floating islands
+[15:29:33.148] [Main Thread/INFO] [StatusText]: Adding mushroom patches
+[15:29:36.579] [Main Thread/INFO] [StatusText]: Chiseling marble
+[15:29:38.951] [Main Thread/INFO] [StatusText]: Growing granite
+[15:29:39.978] [Main Thread/INFO] [StatusText]: Placing mud in the dirt
+[15:29:40.318] [Main Thread/INFO] [StatusText]: Adding silt
+[15:29:40.411] [Main Thread/INFO] [StatusText]: Adding shinies
+[15:29:40.515] [Main Thread/INFO] [StatusText]: Adding webs
+[15:29:40.549] [Main Thread/INFO] [StatusText]: Creating underworld
+[15:29:40.759] [.NET TP Worker/INFO] [StatusText]: Creating underworld
+[15:29:44.107] [Main Thread/INFO] [StatusText]: Making the world bloody
+[15:29:44.198] [Main Thread/INFO] [StatusText]: Adding water bodies
+[15:29:44.238] [.NET TP Worker/INFO] [StatusText]: Creating dungeon
+[15:29:44.895] [Main Thread/INFO] [StatusText]: Generating mountain caves
+[15:29:44.912] [Main Thread/INFO] [StatusText]: Creating beaches
+[15:29:44.921] [Main Thread/INFO] [StatusText]: Adding gems
+[15:29:45.129] [Main Thread/INFO] [StatusText]: Gravitating sand
+[15:29:45.386] [Main Thread/INFO] [StatusText]: Forming the depths
+[15:29:45.721] [Main Thread/INFO] [StatusText]: Cleaning up dirt backgrounds
+[15:29:46.132] [Main Thread/INFO] [StatusText]: Placing altars
+[15:29:46.183] [Main Thread/INFO] [StatusText]: Creating jungle ruins
+[15:29:46.914] [Main Thread/INFO] [StatusText]: Creating hornet nests
+[15:29:47.205] [Main Thread/INFO] [StatusText]: Settling liquids
+[15:29:47.212] [.NET TP Worker/INFO] [StatusText]: Settling liquids
+[15:29:49.956] [Main Thread/INFO] [StatusText]: Smoothing the world
+[15:29:53.313] [Main Thread/INFO] [StatusText]: Creating waterfalls
+[15:29:54.688] [Main Thread/INFO] [StatusText]: Weathering caverns
+[15:29:57.722] [Main Thread/INFO] [StatusText]: Placing life crystals
+[15:29:57.728] [Main Thread/INFO] [StatusText]: Placing statues
+[15:29:58.034] [Main Thread/INFO] [StatusText]: Hiding treasure
+[15:29:59.683] [Main Thread/INFO] [StatusText]: Hiding more treasure
+[15:29:59.753] [Main Thread/INFO] [StatusText]: Hiding jungle treasure
+[15:29:59.758] [Main Thread/INFO] [StatusText]: Hiding water treasure
+[15:29:59.767] [Main Thread/INFO] [StatusText]: Growing spider caves
+[15:30:00.353] [Main Thread/INFO] [StatusText]: Mossification
+[15:30:00.932] [Main Thread/INFO] [StatusText]: Making cave walls
+[15:30:01.858] [Main Thread/INFO] [StatusText]: Growing rich mahogany
+[15:30:02.950] [Main Thread/INFO] [StatusText]: Placing breakables
+[15:30:03.576] [Main Thread/INFO] [StatusText]: Placing hellforges
+[15:30:03.586] [Main Thread/INFO] [StatusText]: Spreading grass
+[15:30:03.760] [Main Thread/INFO] [StatusText]: Felling trees
+[15:30:03.775] [Main Thread/INFO] [StatusText]: Placing traps
+[15:30:04.870] [Main Thread/INFO] [StatusText]: Placing objects
+[15:30:05.424] [Main Thread/INFO] [StatusText]: Planting sunflowers
+[15:30:05.430] [Main Thread/INFO] [StatusText]: Planting trees
+[15:30:05.758] [Main Thread/INFO] [StatusText]: Planting herbs
+[15:30:07.461] [Main Thread/INFO] [StatusText]: Planting weeds
+[15:30:08.866] [Main Thread/INFO] [StatusText]: Growing vines
+[15:30:10.055] [Main Thread/INFO] [StatusText]: Planting flowers
+[15:30:10.108] [Main Thread/INFO] [StatusText]: Planting mushrooms
+[15:30:10.988] [Main Thread/INFO] [StatusText]: Settling liquids
+[15:30:14.760] [Main Thread/INFO] [StatusText]: Growing cacti
+[15:30:15.357] [Main Thread/INFO] [StatusText]: Clean up
+[15:30:17.279] [Main Thread/INFO] [StatusText]: Generating structures..Dead Man's Chests
+[15:30:17.374] [Main Thread/INFO] [StatusText]: Generating structures..Thin Ice
+[15:30:17.659] [Main Thread/INFO] [StatusText]: Generating structures..Sword Shrines
+[15:30:17.728] [Main Thread/INFO] [StatusText]: Generating structures..Campsites
+[15:30:17.833] [Main Thread/INFO] [StatusText]: Generating structures..Explosive Traps
+[15:30:18.048] [Main Thread/INFO] [StatusText]: Generating structures..Living Trees
+[15:30:18.844] [Main Thread/INFO] [StatusText]: Generating structures..Long Minecart Tracks
+[15:30:21.714] [Main Thread/INFO] [StatusText]: Generating structures..Standard Minecart Tracks
+[15:30:27.384] [Main Thread/INFO] [StatusText]: Generating structures..Lava Traps
+[15:30:27.543] [Main Thread/INFO] [StatusText]: Growing water plants
+[15:30:28.957] [Main Thread/INFO] [StatusText]: Disarming broken traps
+[15:30:29.678] [Main Thread/INFO] [StatusText]: Final clean up
+[15:30:31.482] [Main Thread/INFO] [StatusText]: Finalizing world
+[15:30:31.756] [.NET TP Worker/INFO] [tML]: Generation of 8400x2400 Crimson world with seed 1067846839 completed in 1m 33s 500ms
+[15:30:31.765] [.NET TP Worker/INFO] [StatusText]: Saving world data
+[15:30:32.390] [.NET TP Worker/INFO] [StatusText]: Validating world save
+[15:30:32.639] [.NET TP Worker/INFO] [StatusText]: Saving modded world data
+[15:30:35.220] [Main Thread/INFO] [StatusText]: 100.0% - Finalizing world - 0.
+[15:30:50.220] [.NET TP Worker/INFO] [Terraria]: Loading World: Nyxane's, IsCloud=False, Width: 8400, Height: 2400, Evil: 1, GameMode: 2
+[15:30:50.247] [.NET TP Worker/INFO] [StatusText]: Loading world data
+[15:30:51.759] [.NET TP Worker/INFO] [StatusText]: Settling liquids
+[15:30:52.630] [Main Thread/INFO] [Terraria]: Running engine preload...
+[15:30:52.631] [Main Thread/INFO] [Terraria]: Listening on port 7777
+[15:30:52.633] [Main Thread/INFO] [StatusText]: Starting server...
+[15:30:52.691] [Main Thread/INFO] [StatusText]: Server started
+[15:30:52.747] [.NET TP Worker/DEBUG] [tML]: SSDP search line separator: CRLF
+[15:30:55.235] [7/DEBUG] [tML]: Hook System.Runtime.Loader.AssemblyLoadContext::ValidateAssemblyNameWithSimpleName(Assembly, string) added by tModLoader
