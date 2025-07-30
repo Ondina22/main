@@ -28,12 +28,15 @@ jobs:
           # Create a named pipe (FIFO) for feeding stdin to the server
           pipe="control.pipe"
           mkfifo "$pipe"
+          # Open the pipe for writing and keep it open. This is the crucial step.
+          exec 3>"$pipe"
 
           # Graceful shutdown on cancel/interrupt
           cleanup() {
             echo "Graceful shutdown requested…"
             # tell server to exit and give it time to save
-            echo "exit" >"$pipe" || true
+            echo "exit" >&3 || true
+            exec 3>&- # Close the pipe
             sleep 10
           }
           trap cleanup INT TERM
@@ -43,11 +46,43 @@ jobs:
           srv_pid=$!
           echo "Server started with PID $srv_pid"
 
-          # --- Wait 30 seconds before shutting down ----------------------
+          # --- Wait for server to be ready, then run for 30s ---
+          echo "Waiting for server to report 'Listening on port 7777'..."
+          # Prefer server.log, but check Launch.log during startup
+          server_log_path="$GITHUB_WORKSPACE/tModLoader-Logs/server.log"
+          launch_log_path="$GITHUB_WORKSPACE/tModLoader-Logs/Launch.log"
+          
+          timeout_seconds=180
+          server_ready=false
+
+          for ((i=0; i<timeout_seconds; i+=5)); do
+            # Check both log files for the readiness message
+            if ( [ -f "$server_log_path" ] && grep -q "Listening on port 7777" "$server_log_path" ) || \
+               ( [ -f "$launch_log_path" ] && grep -q "Listening on port 7777" "$launch_log_path" ); then
+              echo "Server is ready! Running for an additional 30 seconds."
+              server_ready=true
+              break
+            fi
+            echo "Still waiting... (${i}s / ${timeout_seconds}s)"
+            sleep 5
+          done
+
+          if [ "$server_ready" = false ]; then
+            echo "::error::Server failed to start within ${timeout_seconds} seconds."
+            if [ -f "$launch_log_path" ]; then
+              echo "::group::Dumping Launch.log"
+              cat "$launch_log_path"
+              echo "::endgroup::"
+            fi
+            exit 1
+          fi
+
           sleep 30
 
-          # --- Send the 'exit' command through the FIFO ------------------
-          echo "exit" >"$pipe"
+          # --- Send the 'exit' command through the now-open pipe ---
+          echo "exit" >&3
+          # --- Close the pipe and clean up ---
+          exec 3>&-
           echo "'exit' sent; allowing 10 s for graceful shutdown …"
           sleep 10
 
