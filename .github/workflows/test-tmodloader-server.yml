@@ -50,8 +50,12 @@ jobs:
             # Show recent log entries every few seconds
             if [ $((i % 5)) -eq 0 ]; then
               echo "=== Server progress at ${i}s ==="
-              if [ -f "/home/runner/work/main/main/tModLoader-Logs/server.log" ]; then
-                tail -5 /home/runner/work/main/main/tModLoader-Logs/server.log
+              log="$GITHUB_WORKSPACE/tModLoader-Logs/server.log"
+              [ -f "$log" ] || log="$GITHUB_WORKSPACE/tModLoader-Logs/Launch.log"
+              if [ -f "$log" ]; then
+                tail -5 "$log"
+              else
+                echo "(log file not created yet)"
               fi
               echo "==="
             fi
