@@ -31,20 +31,30 @@ jobs:
 
           # Graceful shutdown on cancel/interrupt
           cleanup() {
-            echo "Graceful shutdown requested…"
+            echo "Graceful manual shutdown requested…"
             # tell server to exit and give it time to save
             echo "exit" >"$pipe" || true
             sleep 10
           }
           trap cleanup INT TERM
 
-          # Start the server in the background with output redirected for live logging
-          stdbuf -o0 -e0 ./start-tModLoaderServer.sh <"$pipe" &
+          # Start the server in the background 
+          ./start-tModLoaderServer.sh <"$pipe" &
           srv_pid=$!
           echo "Server started with PID $srv_pid"
 
-          # --- Wait 30 seconds before shutting down ----------------------
-          sleep 30
+          # Show server startup and progress by monitoring logs
+          for i in {1..30}; do
+            sleep 1
+            # Show recent log entries every few seconds
+            if [ $((i % 5)) -eq 0 ]; then
+              echo "=== Server progress at ${i}s ==="
+              if [ -f "tModLoader-Logs/server.log" ]; then
+                tail -5 tModLoader-Logs/server.log
+              fi
+              echo "==="
+            fi
+          done
 
           # --- Send the 'exit' command through the FIFO ------------------
           echo "exit" >"$pipe"
