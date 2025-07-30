@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v4
 
       # 2. Start the server, wait 30 s, send "exit", wait 10 s
-      - name: Launch server ➜ wait 30 s ➜ exit ➜ wait 10 s
+      - name: Launch server ➜ wait 60 s ➜ exit ➜ wait 10 s
         shell: bash
         run: |
           set -euo pipefail
@@ -45,7 +45,7 @@ jobs:
           echo "Server started with PID $srv_pid"
 
           # Show server startup and progress by monitoring logs
-          for i in {1..30}; do
+          for i in {1..60}; do
             sleep 1
             # Show recent log entries every few seconds
             if [ $((i % 5)) -eq 0 ]; then
