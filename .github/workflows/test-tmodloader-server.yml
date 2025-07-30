@@ -9,6 +9,8 @@ on:
 jobs:
   run-server:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       # 1. Check out the repository (fast, required for script access)
@@ -36,9 +38,8 @@ jobs:
           }
           trap cleanup INT TERM
 
-          # Start the server in the background; its stdin comes from the FIFO,
-          # stdout/stderr go straight to the job log (real-time feedback)
-          ./start-tModLoaderServer.sh <"$pipe" &
+          # Start the server in the background with output redirected for live logging
+          stdbuf -o0 -e0 ./start-tModLoaderServer.sh <"$pipe" &
           srv_pid=$!
           echo "Server started with PID $srv_pid"
 
