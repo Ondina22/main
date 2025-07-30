@@ -1,0 +1,47 @@
+# This GitHub Actions workflow launches start-tModLoaderServer.sh,
+# waits 30 seconds for testing, sends "exit" to shut it down,
+# waits another 10 seconds for a graceful stop, then finishes.
+
+name: Test tModLoader server (30-second test)
+
+on:
+  workflow_dispatch:  # run manually from the Actions tab for now
+
+jobs:
+  run-server:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Check out the repository
+      - uses: actions/checkout@v4
+
+      # 2. Install the "expect" utility which lets us send input to the process
+      - name: Install expect
+        run: sudo apt-get update -y && sudo apt-get install -y expect
+
+      # 3. Launch the server, wait, send "exit", wait again
+      - name: Launch server, wait 30 s, exit, wait 10 s
+        run: |
+          # Ensure the launcher script is executable
+          chmod +x ./start-tModLoaderServer.sh
+
+          # Use an inline expect script to automate the interaction
+          /usr/bin/expect <<'EOF'
+          # Disable the default expect timeout (10 s) so it will wait as long as needed
+          set timeout -1
+
+          # Start the server
+          spawn ./start-tModLoaderServer.sh
+
+          # --- WAIT 30 seconds for test purposes -------------
+          sleep 30
+
+          # --- Send the command "exit" followed by Enter -----
+          send "exit\r"
+
+          # --- WAIT 10 seconds for graceful shutdown ---------
+          sleep 10
+
+          # Wait until the spawned process ends (EOF)
+          expect eof
+          EOF
