@@ -23,4 +23,9 @@ for arg in "$@"; do
 done
 
 chmod +x ./LaunchUtils/ScriptCaller.sh
+
+# Start the automated backup script in the background.
+# The & at the end of the line is what makes it run in the background.
+./backup-world.sh &
+
 ./LaunchUtils/ScriptCaller.sh $launch_args
