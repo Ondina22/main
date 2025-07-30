@@ -1,47 +1,82 @@
-# This GitHub Actions workflow launches start-tModLoaderServer.sh,
-# waits 30 seconds for testing, sends "exit" to shut it down,
-# waits another 10 seconds for a graceful stop, then finishes.
+# GitHub Actions workflow – run tModLoader server for 30 s, send "exit",
+# give it 10 s to shut down, commit any files the server created/modified.
 
-name: Test tModLoader server (30-second test)
+name: Test tModLoader server (30-second test, auto-commit outputs)
 
 on:
-  workflow_dispatch:  # run manually from the Actions tab for now
+  workflow_dispatch:      # Trigger manually from the Actions tab.
 
 jobs:
   run-server:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Check out the repository
+      # 1. Check out the repository (fast, required for script access)
       - uses: actions/checkout@v4
 
-      # 2. Install the "expect" utility which lets us send input to the process
-      - name: Install expect
-        run: sudo apt-get update -y && sudo apt-get install -y expect
-
-      # 3. Launch the server, wait, send "exit", wait again
-      - name: Launch server, wait 30 s, exit, wait 10 s
+      # 2. Start the server, wait 30 s, send "exit", wait 10 s
+      - name: Launch server ➜ wait 30 s ➜ exit ➜ wait 10 s
+        shell: bash
         run: |
+          set -euo pipefail
+
           # Ensure the launcher script is executable
           chmod +x ./start-tModLoaderServer.sh
 
-          # Use an inline expect script to automate the interaction
-          /usr/bin/expect <<'EOF'
-          # Disable the default expect timeout (10 s) so it will wait as long as needed
-          set timeout -1
+          # Create a named pipe (FIFO) for feeding stdin to the server
+          pipe="control.pipe"
+          mkfifo "$pipe"
 
-          # Start the server
-          spawn ./start-tModLoaderServer.sh
+          # Graceful shutdown on cancel/interrupt
+          cleanup() {
+            echo "Graceful shutdown requested…"
+            # tell server to exit and give it time to save
+            echo "exit" >"$pipe" || true
+            sleep 10
+          }
+          trap cleanup INT TERM
 
-          # --- WAIT 30 seconds for test purposes -------------
+          # Start the server in the background; its stdin comes from the FIFO,
+          # stdout/stderr go straight to the job log (real-time feedback)
+          ./start-tModLoaderServer.sh <"$pipe" &
+          srv_pid=$!
+          echo "Server started with PID $srv_pid"
+
+          # --- Wait 30 seconds before shutting down ----------------------
           sleep 30
 
-          # --- Send the command "exit" followed by Enter -----
-          send "exit\r"
-
-          # --- WAIT 10 seconds for graceful shutdown ---------
+          # --- Send the 'exit' command through the FIFO ------------------
+          echo "exit" >"$pipe"
+          echo "'exit' sent; allowing 10 s for graceful shutdown …"
           sleep 10
 
-          # Wait until the spawned process ends (EOF)
-          expect eof
-          EOF
+          # --- Wait for the server process to end ------------------------
+          wait $srv_pid
+          echo "Server stopped gracefully."
+
+          # Clean up
+          rm -f "$pipe"
+
+      # 3. Commit and push any files the server generated or modified
+      - name: Commit & push generated files back to repo
+        if: always()   # Only run if previous step succeeded
+        shell: bash
+        env:
+          GIT_AUTHOR_NAME: GitHub Actions
+          GIT_AUTHOR_EMAIL: actions@github.com
+          GIT_COMMITTER_NAME: GitHub Actions
+          GIT_COMMITTER_EMAIL: actions@github.com
+        run: |
+          set -e
+          # Stage all changes (new, modified, deleted files)
+          git add -A
+
+          # If nothing changed, exit quietly
+          if git diff --cached --quiet; then
+            echo "No changes detected – nothing to commit."
+            exit 0
+          fi
+
+          # Commit and push
+          git commit -m "chore: auto-commit tModLoader outputs [skip ci]"
+          git push
