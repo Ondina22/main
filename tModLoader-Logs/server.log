@@ -1,497 +1,498 @@
-[00:43:49.774] [Main Thread/INFO] [tML]: Starting tModLoader server 1.4.4.9+2025.05.3.0|2025.05|stable|Stable|304e5c71d25e7a266270bd69657a2ff632a12558|5250555269014555243 built 07/01/2025 00:04
-[00:43:49.782] [Main Thread/INFO] [tML]: Log date: 07/31/2025
-[00:43:49.783] [Main Thread/INFO] [tML]: Running on Linux (v6.8.0.1030) X64 NetCore 8.0.0
-[00:43:49.788] [Main Thread/INFO] [tML]: CPU: 2 processors. RAM: 7.8 GB
-[00:43:49.788] [Main Thread/INFO] [tML]: FrameworkDescription: .NET 8.0.0
-[00:43:49.788] [Main Thread/INFO] [tML]: Executable: /workspaces/main/tModLoader.dll
-[00:43:49.788] [Main Thread/INFO] [tML]: Working Directory: /workspaces/main
-[00:43:49.789] [Main Thread/INFO] [tML]: Launch Parameters: -server -nosteam -config serverconfig.txt
-[00:43:49.792] [Main Thread/INFO] [tML]: Parsed Launch Parameters: -server -nosteam -config serverconfig.txt
-[00:43:50.073] [Main Thread/INFO] [tML]: No config.json found at /home/codespace/.local/share/Terraria/tModLoader/config.json
-Assuming nothing to port
-[00:43:50.074] [Main Thread/INFO] [tML]: Saves Are Located At: /home/codespace/.local/share/Terraria/tModLoader
-[00:43:50.079] [Main Thread/INFO] [tML]: Finding Mods...
-[00:43:50.495] [Main Thread/INFO] [tML]: Distribution Platform: Steam. Detection method: Terraria.exe or Terraria_v1.4.4.9.exe not found nearby
-[00:43:50.565] [Main Thread/INFO] [tML]: Current 1281930 Workshop Folder Directory: steamapps/workshop
-[00:43:52.365] [Main Thread/DEBUG] [tML]: Network compatibility version is 2025.5.3
-[00:43:54.439] [Main Thread/INFO] [tML]: Finding Mods...
-[00:43:54.578] [Main Thread/DEBUG] [tML]: Selected AbilityToRead 0.1 for tML 2024.11.3.1 from Local.
-[00:43:54.578] [Main Thread/DEBUG] [tML]: Selected AlchemistNPCLite 1.9.8 for tML 2025.2.3.2 from Local.
-[00:43:54.578] [Main Thread/DEBUG] [tML]: Selected AutoReroll 2024.8.31 for tML 2024.6.3.1 from Local.
-[00:43:54.578] [Main Thread/DEBUG] [tML]: Selected AutoTrash 0.7.2 for tML 2024.10.3.0 from Local.
-[00:43:54.578] [Main Thread/DEBUG] [tML]: Selected BetterBossBarPlus 0.9.2.4 for tML 2025.2.3.3 from Local.
-[00:43:54.578] [Main Thread/DEBUG] [tML]: Selected BossChecklist 2.2.3.1 for tML 2025.4.3.0 from Local.
-[00:43:54.578] [Main Thread/DEBUG] [tML]: Selected BossCursor 3.0.0 for tML 2023.6.23.0 from Local.
-[00:43:54.578] [Main Thread/DEBUG] [tML]: Selected CalamityMod 2.0.5 for tML 2025.4.3.0 from Local.
-[00:43:54.579] [Main Thread/DEBUG] [tML]: Selected CalamityModMusic 2.0.5 for tML 2025.4.3.0 from Local.
-[00:43:54.579] [Main Thread/DEBUG] [tML]: Selected Census 0.5.2.7 for tML 2024.12.3.1 from Local.
-[00:43:54.579] [Main Thread/DEBUG] [tML]: Selected DisableCorruptionSpread 1.3.0.2 for tML 2023.6.25.27 from Local.
-[00:43:54.579] [Main Thread/DEBUG] [tML]: Selected FargoSeeds 0.5.3 for tML 2025.5.3.0 from Local.
-[00:43:54.579] [Main Thread/DEBUG] [tML]: Selected Fargowiltas 3.3.6.2 for tML 2025.3.3.1 from Local.
-[00:43:54.579] [Main Thread/DEBUG] [tML]: Selected FargowiltasCrossmod 1.2.0.14 for tML 2025.5.3.0 from Local.
-[00:43:54.579] [Main Thread/DEBUG] [tML]: Selected FargowiltasSouls 1.7.2.14 for tML 2025.3.3.1 from Local.
-[00:43:54.579] [Main Thread/DEBUG] [tML]: Selected HEROsMod 0.4.17.1 for tML 2025.4.3.0 from Local.
-[00:43:54.579] [Main Thread/DEBUG] [tML]: Selected HighFPSSupport 0.6.6.5 for tML 2025.3.3.1 from Local.
-[00:43:54.579] [Main Thread/DEBUG] [tML]: Selected Lights 1.4.2 for tML 2024.10.3.0 from Local.
-[00:43:54.579] [Main Thread/DEBUG] [tML]: Selected Luminance 1.0.12 for tML 2025.2.3.3 from Local.
-[00:43:54.579] [Main Thread/DEBUG] [tML]: Selected MagicStorage 0.7.0.8 for tML 2025.5.3.0 from Local.
-[00:43:54.580] [Main Thread/DEBUG] [tML]: Selected miningcracks_take_on_luiafk 1.2.5 for tML 2024.3.3.2 from Local.
-[00:43:54.580] [Main Thread/DEBUG] [tML]: Selected MoreAccessories 1.4.2 for tML 2023.12.2.5 from Local.
-[00:43:54.580] [Main Thread/DEBUG] [tML]: Selected NoFishingQuests 3.2.0.5 for tML 2025.3.3.1 from Local.
-[00:43:54.580] [Main Thread/DEBUG] [tML]: Selected NoPylonRestrictions 0.1.3.7 for tML 2023.8.2.8 from Local.
-[00:43:54.580] [Main Thread/DEBUG] [tML]: Selected OreExcavator 0.8.9 for tML 2024.6.3.1 from Local.
-[00:43:54.580] [Main Thread/DEBUG] [tML]: Selected RecipeBrowser 0.10.11.1 for tML 2025.5.3.0 from Local.
-[00:43:54.580] [Main Thread/DEBUG] [tML]: Selected SerousCommonLib 1.0.6.1 for tML 2025.4.3.0 from Local.
-[00:43:54.580] [Main Thread/DEBUG] [tML]: Selected ShorterRespawn 1.2 for tML 2024.11.3.2 from Local.
-[00:43:54.580] [Main Thread/DEBUG] [tML]: Selected StarsAbove 2.1.7.1 for tML 2025.4.3.0 from Local.
-[00:43:54.580] [Main Thread/DEBUG] [tML]: Selected StartingBags 0.1.4.4 for tML 2023.6.25.31 from Local.
-[00:43:54.580] [Main Thread/DEBUG] [tML]: Selected StartWithBase 0.4.0.0 for tML 2025.2.3.2 from Local.
-[00:43:54.580] [Main Thread/DEBUG] [tML]: Selected SubworldLibrary 2.2.3.1 for tML 2024.10.3.0 from Local.
-[00:43:54.581] [Main Thread/DEBUG] [tML]: Selected WheresMyItems 0.8 for tML 2025.5.3.0 from Local.
-[00:43:54.581] [Main Thread/DEBUG] [tML]: Selected WingSlotExtra 1.4.5 for tML 2025.3.3.1 from Local.
-[00:43:54.581] [Main Thread/DEBUG] [tML]: Selected WMITF 2.7.1 for tML 2024.4.3.2 from Local.
-[00:43:54.591] [Main Thread/INFO] [tML]: Missing previously enabled mods: OneStopNPCShop
-[00:43:54.632] [Main Thread/INFO] [tML]: Finding Mods...
-[00:43:55.978] [Main Thread/INFO] [tML]: Sandboxing: AbilityToRead (readAbility) v0.1
-[00:43:56.004] [Main Thread/DEBUG] [tML]: Hook System.Runtime.Loader.AssemblyLoadContext::ValidateAssemblyNameWithSimpleName(Assembly, string) added by tModLoader
-[00:43:56.081] [Main Thread/INFO] [tML]: Sandboxing: CalamityModMusic (Calamity Mod Music) v2.0.5
-[00:43:56.118] [Main Thread/INFO] [tML]: Sandboxing: CalamityMod (Calamity Mod) v2.0.5
-[00:43:57.386] [Main Thread/INFO] [tML]: Sandboxing: Census (Census - Town NPC Checklist) v0.5.2.7
-[00:43:57.398] [Main Thread/INFO] [tML]: Sandboxing: AlchemistNPCLite (AlchemistNPC Lite) v1.9.8
-[00:43:57.425] [Main Thread/INFO] [tML]: Sandboxing: AutoReroll (Auto Reforge) v2024.8.31
-[00:43:57.445] [Main Thread/INFO] [tML]: Sandboxing: AutoTrash (Auto Trash) v0.7.2
-[00:43:57.475] [Main Thread/INFO] [tML]: Sandboxing: BetterBossBarPlus (Better Boss Health Bar for 1.4.4+) v0.9.2.4
-[00:43:57.532] [Main Thread/INFO] [tML]: Sandboxing: BossChecklist (Boss Checklist) v2.2.3.1
-[00:43:57.623] [Main Thread/INFO] [tML]: Sandboxing: DisableCorruptionSpread (Begone, Evil! (Disable Evil Biome Spread)) v1.3.0.2
-[00:43:57.680] [Main Thread/INFO] [tML]: Sandboxing: FargoSeeds (Fargo's Best of Both Worlds) v0.5.3
-[00:43:57.709] [Main Thread/INFO] [tML]: Sandboxing: Fargowiltas (Fargo's Mutant Mod) v3.3.6.2
-[00:43:57.894] [Main Thread/INFO] [tML]: Sandboxing: Luminance (Luminance) v1.0.12
-[00:43:57.959] [Main Thread/INFO] [tML]: Sandboxing: FargowiltasSouls (Fargo's Souls Mod) v1.7.2.14
-[00:43:58.925] [Main Thread/INFO] [tML]: Sandboxing: FargowiltasCrossmod (Calamity - Fargo's Souls DLC) v1.2.0.14
-[00:43:59.167] [Main Thread/INFO] [tML]: Sandboxing: HEROsMod (HERO's Mod) v0.4.17.1
-[00:43:59.214] [Main Thread/INFO] [tML]: Sandboxing: SerousCommonLib (absoluteAquarian Utilities (SerousCommonLib)) v1.0.6.1
-[00:43:59.274] [Main Thread/INFO] [tML]: Sandboxing: MagicStorage (Magic Storage) v0.7.0.8
-[00:43:59.546] [Main Thread/INFO] [tML]: Sandboxing: miningcracks_take_on_luiafk (LuiAFK Reborn) v1.2.5
-[00:43:59.827] [Main Thread/INFO] [tML]: Sandboxing: MoreAccessories (More Accessory Slots (More Accessories)) v1.4.2
-[00:43:59.874] [Main Thread/INFO] [tML]: Sandboxing: NoFishingQuests (Angler Shop) v3.2.0.5
-[00:43:59.918] [Main Thread/INFO] [tML]: Sandboxing: NoPylonRestrictions (No Pylon Restrictions) v0.1.3.7
-[00:43:59.945] [Main Thread/INFO] [tML]: Sandboxing: OreExcavator (Ore Excavator (1.4.3/1.4.4 Veinminer)) v0.8.9
-[00:43:59.966] [Main Thread/INFO] [tML]: Sandboxing: RecipeBrowser (Recipe Browser) v0.10.11.1
-[00:44:00.008] [Main Thread/INFO] [tML]: Sandboxing: ShorterRespawn (Shorter Respawn Time) v1.2
-[00:44:00.023] [Main Thread/INFO] [tML]: Sandboxing: SubworldLibrary (Subworld Library) v2.2.3.1
-[00:44:00.037] [Main Thread/INFO] [tML]: Sandboxing: StarsAbove (The Stars Above) v2.1.7.1
-[00:44:00.846] [Main Thread/INFO] [tML]: Sandboxing: StartingBags (Starter Bags) v0.1.4.4
-[00:44:00.881] [Main Thread/INFO] [tML]: Sandboxing: StartWithBase (Start with base) v0.4.0.0
-[00:44:00.919] [Main Thread/INFO] [tML]: Sandboxing: WheresMyItems (Where's My Items) v0.8
-[00:44:00.936] [Main Thread/INFO] [tML]: Sandboxing: WingSlotExtra (Wing Slot Extra) v1.4.5
-[00:44:00.969] [Main Thread/INFO] [tML]: Constructing Mods...
-[00:44:01.172] [Main Thread/INFO] [tML]: Adding Content: ModLoader (tModLoader) v2025.5.3.0
-[00:44:01.630] [Main Thread/INFO] [tML]: Adding Content: AbilityToRead (readAbility) v0.1
-[00:44:01.673] [Main Thread/INFO] [tML]: Adding Content: CalamityModMusic (Calamity Mod Music) v2.0.5
-[00:44:01.726] [Main Thread/INFO] [tML]: Adding Content: CalamityMod (Calamity Mod) v2.0.5
-[00:44:03.345] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::CheckMonoliths() added by CalamityMod
-[00:44:03.367] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DoDraw_DrawNPCsOverTiles() added by CalamityMod
-[00:44:03.388] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawProjectiles() added by CalamityMod
-[00:44:03.408] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawPlayers_AfterProjectiles() added by CalamityMod
-[00:44:03.632] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::KeyDoubleTap(int) added by CalamityMod
-[00:44:03.688] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::QuickMount() added by CalamityMod
-[00:44:03.740] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::dropItemCheck() added by CalamityMod
-[00:44:03.830] [Main Thread/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::LeftClick(Item[], int, int) added by CalamityMod
-[00:44:03.894] [Main Thread/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::Draw(SpriteBatch, Item[], int, int, Vector2, Color) added by CalamityMod
-[00:44:03.898] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::KeyDoubleTap(int) added by CalamityMod
-[00:44:03.903] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawPendingMouseText() added by CalamityMod
-[00:44:03.966] [Main Thread/DEBUG] [tML]: Hook Terraria.Item::CanFillEmptyAmmoSlot() added by CalamityMod
-[00:44:07.374] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawProjectiles() added by CalamityMod
-[00:44:07.403] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawNPCs(bool) added by CalamityMod
-[00:44:07.890] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::DoDraw(GameTime) added by CalamityMod
-[00:44:07.924] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawGore() added by CalamityMod
-[00:44:07.949] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawCursor(Vector2, bool) added by CalamityMod
-[00:44:07.952] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::SortDrawCacheWorms() added by CalamityMod
-[00:44:07.960] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawInfernoRings() added by CalamityMod
-[00:44:07.968] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.Drawing.TileDrawing::DrawPartialLiquid(bool, Tile, ref Vector2, ref Rectangle, int, ref VertexColors) added by CalamityMod
-[00:44:07.981] [Main Thread/DEBUG] [tML]: Hook Terraria.WaterfallManager::DrawWaterfall(int, int, int, float, Vector2, Rectangle, Color, SpriteEffects) added by CalamityMod
-[00:44:07.986] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::RenderWater() added by CalamityMod
-[00:44:08.002] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.Liquid.LiquidRenderer::DrawNormalLiquids(SpriteBatch, Vector2, int, float, bool) added by CalamityMod
-[00:44:08.088] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::oldDrawWater(bool, int, float) added by CalamityMod
-[00:44:08.097] [Main Thread/DEBUG] [tML]: Hook Terraria.Graphics.Light.TileLightScanner::GetTileLight(int, int, out Vector3) added by CalamityMod
-[00:44:08.104] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.Drawing.TileDrawing::PreDrawTiles(bool, bool, bool) added by CalamityMod
-[00:44:08.147] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.Drawing.TileDrawing::Draw(bool, bool, bool, int) added by CalamityMod
-[00:44:08.154] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.ItemDropRules.CommonCode::ModifyItemDropFromNPC(NPC, int) added by CalamityMod
-[00:44:08.216] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::UpdateItemDye(bool, bool, Item, Item) added by CalamityMod
-[00:44:08.621] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::ApplyEquipFunctional(Item, bool) added by CalamityMod
-[00:44:08.629] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::ApplyEquipVanity(Item) added by CalamityMod
-[00:44:08.734] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::UpdateArmorSets(int) added by CalamityMod
-[00:44:08.791] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::UpdateTime() added by CalamityMod
-[00:44:08.908] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::UpdateTime_SpawnTownNPCs() added by CalamityMod
-[00:44:08.916] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::ShouldEmpressBeEnraged() added by CalamityMod
-[00:44:08.941] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::CollectTaxes() added by CalamityMod
-[00:44:09.173] [Main Thread/DEBUG] [tML]: ILHook Terraria.Projectile::Damage() added by CalamityMod
-[00:44:09.184] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::ApplyTileCollision(bool, Vector2, int, int) added by CalamityMod
-[00:44:09.330] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::ApplyEquipFunctional(Item, bool) added by CalamityMod
-[00:44:09.347] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Hurt(PlayerDeathReason, int, int, out HurtInfo, bool, bool, int, bool, float, float, float) added by CalamityMod
-[00:44:09.418] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::DashMovement() added by CalamityMod
-[00:44:09.431] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::DoCommonDashHandle(out int, out bool, DashStartAction) added by CalamityMod
-[00:44:09.442] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::GiveImmuneTimeForCollisionAttack(int) added by CalamityMod
-[00:44:09.483] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Update_NPCCollision() added by CalamityMod
-[00:44:09.519] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::OpenDoor(int, int, int) added by CalamityMod
-[00:44:09.529] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::CloseDoor(int, int, bool) added by CalamityMod
-[00:44:09.535] [Main Thread/DEBUG] [tML]: Hook Terraria.Item::AffixName() added by CalamityMod
-[00:44:09.552] [Main Thread/DEBUG] [tML]: Hook Terraria.Projectile::NewProjectile(IEntitySource, float, float, float, float, int, int, float, int, float, float, float) added by CalamityMod
-[00:44:09.559] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::Collision_DecideFallThroughPlatforms() added by CalamityMod
-[00:44:09.762] [Main Thread/DEBUG] [tML]: ILHook Terraria.Wiring::HitWireSingle(int, int) added by CalamityMod
-[00:44:09.784] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::UpdateItemDye(bool, bool, Item, Item) added by CalamityMod
-[00:44:09.797] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.UI.Elements.AWorldListItem::GetDifficulty(out string, out Color) added by CalamityMod
-[00:44:09.802] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::IsItemSlotUnlockedAndUsable(int) added by CalamityMod
-[00:44:09.827] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::ApplyLifeAndOrMana(Item) added by CalamityMod
-[00:44:09.869] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::GrappleMovement() added by CalamityMod
-[00:44:09.885] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::UpdatePettingAnimal() added by CalamityMod
-[00:44:10.008] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::PlayerFrame() added by CalamityMod
-[00:44:10.016] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::SlopeDownMovement() added by CalamityMod
-[00:44:10.022] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DamageVar(float, int, float) added by CalamityMod
-[00:44:10.029] [Main Thread/DEBUG] [tML]: ILHook Terraria.NPC::ScaleStats_ApplyExpertTweaks() added by CalamityMod
-[00:44:10.049] [Main Thread/DEBUG] [tML]: ILHook Terraria.Projectile::AI_099_2() added by CalamityMod
-[00:44:10.381] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateBuffs(int) added by CalamityMod
-[00:44:10.577] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateBuffs(int) added by CalamityMod
-[00:44:10.824] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateBuffs(int) added by CalamityMod
-[00:44:10.838] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::ApplyVanillaHurtEffectModifiers(ref HurtModifiers) added by CalamityMod
-[00:44:10.855] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateJumpHeight() added by CalamityMod
-[00:44:11.571] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by CalamityMod
-[00:44:11.796] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by CalamityMod
-[00:44:12.026] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by CalamityMod
-[00:44:12.042] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::WingMovement() added by CalamityMod
-[00:44:12.069] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateLifeRegen() added by CalamityMod
-[00:44:12.086] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateLifeRegen() added by CalamityMod
-[00:44:12.270] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by CalamityMod
-[00:44:12.279] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateManaRegen() added by CalamityMod
-[00:44:12.285] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateManaRegen() added by CalamityMod
-[00:44:12.297] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::GrantPrefixBenefits(Item) added by CalamityMod
-[00:44:12.320] [Main Thread/DEBUG] [tML]: ILHook Terraria.Projectile::StatusPlayer(int) added by CalamityMod
-[00:44:12.350] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::Pyramid(int, int) added by CalamityMod
-[00:44:12.418] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::GrowLivingTree(int, int, bool) added by CalamityMod
-[00:44:12.452] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::SmashAltar(int, int) added by CalamityMod
-[00:44:12.515] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::hardUpdateWorld(int, int) added by CalamityMod
-[00:44:12.524] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::Chlorophyte(int, int) added by CalamityMod
-[00:44:12.534] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.UI.States.UIWorldCreation::SetDefaultOptions() added by CalamityMod
-[00:44:12.546] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.UI.States.UIWorldCreation::AddWorldSizeOptions(UIElement, float, MouseEvent, string, float) added by CalamityMod
-[00:44:12.550] [Main Thread/DEBUG] [tML]: Hook Terraria.IO.WorldFile::ClearTempTiles() added by CalamityMod
-[00:44:12.619] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::MakeDungeon(int, int) added by CalamityMod
-[00:44:12.659] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::DungeonHalls(int, int, ushort, int, bool) added by CalamityMod
-[00:44:12.726] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::MakeDungeon(int, int) added by CalamityMod
-[00:44:12.866] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateBuffs(int) added by CalamityMod
-[00:44:12.870] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.Events.Sandstorm::HasSufficientWind() added by CalamityMod
-[00:44:12.890] [Main Thread/DEBUG] [tML]: ILHook Terraria.Item::TryGetPrefixStatMultipliersForItem(int, out float, out float, out float, out float, out float, out float, out int) added by CalamityMod
-[00:44:12.918] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::SlimeRainSpawns(int) added by CalamityMod
-[00:44:12.932] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.ShimmerTransforms::IsItemTransformLocked(int) added by CalamityMod
-[00:44:12.950] [Main Thread/DEBUG] [tML]: ILHook Terraria.Projectile::CanExplodeTile(int, int) added by CalamityMod
-[00:44:12.972] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::UpdateWindyDayState() added by CalamityMod
-[00:44:13.010] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::UpdateTime_StartNight(ref bool) added by CalamityMod
-[00:44:13.018] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::AttemptFossilShattering(int, int, Tile, bool) added by CalamityMod
-[00:44:13.038] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::GetPickaxeDamage(int, int, int, int, Tile) added by CalamityMod
-[00:44:13.049] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::GetAnglerReward(NPC, int) added by CalamityMod
-[00:44:13.063] [Main Thread/DEBUG] [tML]: ILHook Terraria.NPC::NPCLoot() added by CalamityMod
-[00:44:13.071] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::PlayerInteraction(int) added by CalamityMod
-[00:44:13.075] [Main Thread/DEBUG] [tML]: Hook Terraria.DataStructures.PlayerDrawLayers::DrawHeldProj(PlayerDrawSet, Projectile) added by CalamityMod
-[00:44:13.086] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::ItemCheck_CheckFishingBobbers(bool) added by CalamityMod
-[00:44:13.103] [Main Thread/DEBUG] [tML]: ILHook Terraria.Map.MapHelper::CreateMapTile(int, int, byte) added by CalamityMod
-[00:44:13.113] [Main Thread/INFO] [tML]: Adding Content: Census (Census - Town NPC Checklist) v0.5.2.7
-[00:44:13.144] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::UpdateTime_SpawnTownNPCs() added by Census
-[00:44:13.145] [Main Thread/INFO] [tML]: Adding Content: AlchemistNPCLite (AlchemistNPC Lite) v1.9.8
-[00:44:13.223] [Main Thread/WARN] [tML]: AlchemistNPCLite.Items.Placeable.MateriaTransmutatorMK2 has reference fields (Calamity) that may not be safe to share between clones.
+[01:05:04.774] [Main Thread/INFO] [tML]: Starting tModLoader server 1.4.4.9+2025.05.3.0|2025.05|stable|Stable|304e5c71d25e7a266270bd69657a2ff632a12558|5250555269014555243 built 07/01/2025 00:04
+[01:05:04.790] [Main Thread/INFO] [tML]: Log date: 07/31/2025
+[01:05:04.793] [Main Thread/INFO] [tML]: Running on Linux (v6.8.0.1030) X64 NetCore 8.0.0
+[01:05:04.800] [Main Thread/INFO] [tML]: CPU: 2 processors. RAM: 7.8 GB
+[01:05:04.800] [Main Thread/INFO] [tML]: FrameworkDescription: .NET 8.0.0
+[01:05:04.800] [Main Thread/INFO] [tML]: Executable: /workspaces/main/tModLoader.dll
+[01:05:04.800] [Main Thread/INFO] [tML]: Working Directory: /workspaces/main
+[01:05:04.801] [Main Thread/INFO] [tML]: Launch Parameters: -server -nosteam -config serverconfig.txt
+[01:05:04.805] [Main Thread/INFO] [tML]: Parsed Launch Parameters: -server -nosteam -config serverconfig.txt
+[01:05:05.402] [Main Thread/INFO] [tML]: Saves Are Located At: /home/codespace/.local/share/Terraria/tModLoader
+[01:05:05.410] [Main Thread/INFO] [tML]: Finding Mods...
+[01:05:06.278] [Main Thread/INFO] [tML]: Distribution Platform: Steam. Detection method: Terraria.exe or Terraria_v1.4.4.9.exe not found nearby
+[01:05:06.381] [Main Thread/INFO] [tML]: Current 1281930 Workshop Folder Directory: steamapps/workshop
+[01:05:09.817] [Main Thread/DEBUG] [tML]: Network compatibility version is 2025.5.3
+[01:05:12.309] [Main Thread/INFO] [tML]: Finding Mods...
+[01:05:12.523] [Main Thread/DEBUG] [tML]: Selected AbilityToRead 0.1 for tML 2024.11.3.1 from Local.
+[01:05:12.523] [Main Thread/DEBUG] [tML]: Selected AlchemistNPCLite 1.9.8 for tML 2025.2.3.2 from Local.
+[01:05:12.523] [Main Thread/DEBUG] [tML]: Selected AutoReroll 2024.8.31 for tML 2024.6.3.1 from Local.
+[01:05:12.523] [Main Thread/DEBUG] [tML]: Selected AutoTrash 0.7.2 for tML 2024.10.3.0 from Local.
+[01:05:12.523] [Main Thread/DEBUG] [tML]: Selected BetterBossBarPlus 0.9.2.4 for tML 2025.2.3.3 from Local.
+[01:05:12.523] [Main Thread/DEBUG] [tML]: Selected BossChecklist 2.2.3.1 for tML 2025.4.3.0 from Local.
+[01:05:12.523] [Main Thread/DEBUG] [tML]: Selected BossCursor 3.0.0 for tML 2023.6.23.0 from Local.
+[01:05:12.523] [Main Thread/DEBUG] [tML]: Selected CalamityMod 2.0.5 for tML 2025.4.3.0 from Local.
+[01:05:12.523] [Main Thread/DEBUG] [tML]: Selected CalamityModMusic 2.0.5 for tML 2025.4.3.0 from Local.
+[01:05:12.524] [Main Thread/DEBUG] [tML]: Selected Census 0.5.2.7 for tML 2024.12.3.1 from Local.
+[01:05:12.525] [Main Thread/DEBUG] [tML]: Selected DisableCorruptionSpread 1.3.0.2 for tML 2023.6.25.27 from Local.
+[01:05:12.525] [Main Thread/DEBUG] [tML]: Selected FargoSeeds 0.5.3 for tML 2025.5.3.0 from Local.
+[01:05:12.525] [Main Thread/DEBUG] [tML]: Selected Fargowiltas 3.3.6.2 for tML 2025.3.3.1 from Local.
+[01:05:12.525] [Main Thread/DEBUG] [tML]: Selected FargowiltasCrossmod 1.2.0.14 for tML 2025.5.3.0 from Local.
+[01:05:12.525] [Main Thread/DEBUG] [tML]: Selected FargowiltasSouls 1.7.2.14 for tML 2025.3.3.1 from Local.
+[01:05:12.527] [Main Thread/DEBUG] [tML]: Selected HEROsMod 0.4.17.1 for tML 2025.4.3.0 from Local.
+[01:05:12.527] [Main Thread/DEBUG] [tML]: Selected HighFPSSupport 0.6.6.5 for tML 2025.3.3.1 from Local.
+[01:05:12.527] [Main Thread/DEBUG] [tML]: Selected Lights 1.4.2 for tML 2024.10.3.0 from Local.
+[01:05:12.527] [Main Thread/DEBUG] [tML]: Selected Luminance 1.0.12 for tML 2025.2.3.3 from Local.
+[01:05:12.527] [Main Thread/DEBUG] [tML]: Selected MagicStorage 0.7.0.8 for tML 2025.5.3.0 from Local.
+[01:05:12.527] [Main Thread/DEBUG] [tML]: Selected miningcracks_take_on_luiafk 1.2.5 for tML 2024.3.3.2 from Local.
+[01:05:12.527] [Main Thread/DEBUG] [tML]: Selected MoreAccessories 1.4.2 for tML 2023.12.2.5 from Local.
+[01:05:12.527] [Main Thread/DEBUG] [tML]: Selected NoFishingQuests 3.2.0.5 for tML 2025.3.3.1 from Local.
+[01:05:12.527] [Main Thread/DEBUG] [tML]: Selected NoPylonRestrictions 0.1.3.7 for tML 2023.8.2.8 from Local.
+[01:05:12.528] [Main Thread/DEBUG] [tML]: Selected OneStopNPCShop 1.2.3.2 for tML 2025.3.3.1 from Local.
+[01:05:12.528] [Main Thread/DEBUG] [tML]: Selected OreExcavator 0.8.9 for tML 2024.6.3.1 from Local.
+[01:05:12.529] [Main Thread/DEBUG] [tML]: Selected RecipeBrowser 0.10.11.1 for tML 2025.5.3.0 from Local.
+[01:05:12.529] [Main Thread/DEBUG] [tML]: Selected SerousCommonLib 1.0.6.1 for tML 2025.4.3.0 from Local.
+[01:05:12.529] [Main Thread/DEBUG] [tML]: Selected ShorterRespawn 1.2 for tML 2024.11.3.2 from Local.
+[01:05:12.529] [Main Thread/DEBUG] [tML]: Selected StarsAbove 2.1.7.1 for tML 2025.4.3.0 from Local.
+[01:05:12.529] [Main Thread/DEBUG] [tML]: Selected StartingBags 0.1.4.4 for tML 2023.6.25.31 from Local.
+[01:05:12.529] [Main Thread/DEBUG] [tML]: Selected StartWithBase 0.4.0.0 for tML 2025.2.3.2 from Local.
+[01:05:12.529] [Main Thread/DEBUG] [tML]: Selected SubworldLibrary 2.2.3.1 for tML 2024.10.3.0 from Local.
+[01:05:12.529] [Main Thread/DEBUG] [tML]: Selected WheresMyItems 0.8 for tML 2025.5.3.0 from Local.
+[01:05:12.529] [Main Thread/DEBUG] [tML]: Selected WingSlotExtra 1.4.5 for tML 2025.3.3.1 from Local.
+[01:05:12.529] [Main Thread/DEBUG] [tML]: Selected WMITF 2.7.1 for tML 2024.4.3.2 from Local.
+[01:05:12.540] [Main Thread/INFO] [tML]: Finding Mods...
+[01:05:14.231] [Main Thread/INFO] [tML]: Sandboxing: AbilityToRead (readAbility) v0.1
+[01:05:14.250] [Main Thread/DEBUG] [tML]: Hook System.Runtime.Loader.AssemblyLoadContext::ValidateAssemblyNameWithSimpleName(Assembly, string) added by tModLoader
+[01:05:14.317] [Main Thread/INFO] [tML]: Sandboxing: CalamityModMusic (Calamity Mod Music) v2.0.5
+[01:05:14.376] [Main Thread/INFO] [tML]: Sandboxing: CalamityMod (Calamity Mod) v2.0.5
+[01:05:16.270] [Main Thread/INFO] [tML]: Sandboxing: Census (Census - Town NPC Checklist) v0.5.2.7
+[01:05:16.285] [Main Thread/INFO] [tML]: Sandboxing: AlchemistNPCLite (AlchemistNPC Lite) v1.9.8
+[01:05:16.337] [Main Thread/INFO] [tML]: Sandboxing: AutoReroll (Auto Reforge) v2024.8.31
+[01:05:16.352] [Main Thread/INFO] [tML]: Sandboxing: AutoTrash (Auto Trash) v0.7.2
+[01:05:16.376] [Main Thread/INFO] [tML]: Sandboxing: BetterBossBarPlus (Better Boss Health Bar for 1.4.4+) v0.9.2.4
+[01:05:16.398] [Main Thread/INFO] [tML]: Sandboxing: BossChecklist (Boss Checklist) v2.2.3.1
+[01:05:16.450] [Main Thread/INFO] [tML]: Sandboxing: DisableCorruptionSpread (Begone, Evil! (Disable Evil Biome Spread)) v1.3.0.2
+[01:05:16.458] [Main Thread/INFO] [tML]: Sandboxing: FargoSeeds (Fargo's Best of Both Worlds) v0.5.3
+[01:05:16.469] [Main Thread/INFO] [tML]: Sandboxing: Fargowiltas (Fargo's Mutant Mod) v3.3.6.2
+[01:05:16.578] [Main Thread/INFO] [tML]: Sandboxing: Luminance (Luminance) v1.0.12
+[01:05:16.604] [Main Thread/INFO] [tML]: Sandboxing: FargowiltasSouls (Fargo's Souls Mod) v1.7.2.14
+[01:05:16.959] [Main Thread/INFO] [tML]: Sandboxing: FargowiltasCrossmod (Calamity - Fargo's Souls DLC) v1.2.0.14
+[01:05:17.254] [Main Thread/INFO] [tML]: Sandboxing: HEROsMod (HERO's Mod) v0.4.17.1
+[01:05:17.288] [Main Thread/INFO] [tML]: Sandboxing: SerousCommonLib (absoluteAquarian Utilities (SerousCommonLib)) v1.0.6.1
+[01:05:17.317] [Main Thread/INFO] [tML]: Sandboxing: MagicStorage (Magic Storage) v0.7.0.8
+[01:05:17.498] [Main Thread/INFO] [tML]: Sandboxing: miningcracks_take_on_luiafk (LuiAFK Reborn) v1.2.5
+[01:05:17.544] [Main Thread/INFO] [tML]: Sandboxing: MoreAccessories (More Accessory Slots (More Accessories)) v1.4.2
+[01:05:17.555] [Main Thread/INFO] [tML]: Sandboxing: NoFishingQuests (Angler Shop) v3.2.0.5
+[01:05:17.560] [Main Thread/INFO] [tML]: Sandboxing: NoPylonRestrictions (No Pylon Restrictions) v0.1.3.7
+[01:05:17.566] [Main Thread/INFO] [tML]: Sandboxing: OneStopNPCShop (The Shop Market) v1.2.3.2
+[01:05:17.574] [Main Thread/INFO] [tML]: Sandboxing: OreExcavator (Ore Excavator (1.4.3/1.4.4 Veinminer)) v0.8.9
+[01:05:17.585] [Main Thread/INFO] [tML]: Sandboxing: RecipeBrowser (Recipe Browser) v0.10.11.1
+[01:05:17.623] [Main Thread/INFO] [tML]: Sandboxing: ShorterRespawn (Shorter Respawn Time) v1.2
+[01:05:17.633] [Main Thread/INFO] [tML]: Sandboxing: SubworldLibrary (Subworld Library) v2.2.3.1
+[01:05:17.648] [Main Thread/INFO] [tML]: Sandboxing: StarsAbove (The Stars Above) v2.1.7.1
+[01:05:18.176] [Main Thread/INFO] [tML]: Sandboxing: StartingBags (Starter Bags) v0.1.4.4
+[01:05:18.189] [Main Thread/INFO] [tML]: Sandboxing: StartWithBase (Start with base) v0.4.0.0
+[01:05:18.201] [Main Thread/INFO] [tML]: Sandboxing: WheresMyItems (Where's My Items) v0.8
+[01:05:18.209] [Main Thread/INFO] [tML]: Sandboxing: WingSlotExtra (Wing Slot Extra) v1.4.5
+[01:05:18.219] [Main Thread/INFO] [tML]: Constructing Mods...
+[01:05:18.313] [Main Thread/INFO] [tML]: Adding Content: ModLoader (tModLoader) v2025.5.3.0
+[01:05:18.582] [Main Thread/INFO] [tML]: Adding Content: AbilityToRead (readAbility) v0.1
+[01:05:18.596] [Main Thread/INFO] [tML]: Adding Content: CalamityModMusic (Calamity Mod Music) v2.0.5
+[01:05:18.640] [Main Thread/INFO] [tML]: Adding Content: CalamityMod (Calamity Mod) v2.0.5
+[01:05:20.888] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::CheckMonoliths() added by CalamityMod
+[01:05:20.954] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DoDraw_DrawNPCsOverTiles() added by CalamityMod
+[01:05:21.017] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawProjectiles() added by CalamityMod
+[01:05:21.030] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawPlayers_AfterProjectiles() added by CalamityMod
+[01:05:21.354] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::KeyDoubleTap(int) added by CalamityMod
+[01:05:21.395] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::QuickMount() added by CalamityMod
+[01:05:21.669] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::dropItemCheck() added by CalamityMod
+[01:05:21.821] [Main Thread/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::LeftClick(Item[], int, int) added by CalamityMod
+[01:05:22.010] [Main Thread/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::Draw(SpriteBatch, Item[], int, int, Vector2, Color) added by CalamityMod
+[01:05:22.022] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::KeyDoubleTap(int) added by CalamityMod
+[01:05:22.031] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawPendingMouseText() added by CalamityMod
+[01:05:22.179] [Main Thread/DEBUG] [tML]: Hook Terraria.Item::CanFillEmptyAmmoSlot() added by CalamityMod
+[01:05:27.605] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawProjectiles() added by CalamityMod
+[01:05:27.670] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawNPCs(bool) added by CalamityMod
+[01:05:28.451] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::DoDraw(GameTime) added by CalamityMod
+[01:05:28.462] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawGore() added by CalamityMod
+[01:05:28.549] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawCursor(Vector2, bool) added by CalamityMod
+[01:05:28.559] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::SortDrawCacheWorms() added by CalamityMod
+[01:05:28.591] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawInfernoRings() added by CalamityMod
+[01:05:28.626] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.Drawing.TileDrawing::DrawPartialLiquid(bool, Tile, ref Vector2, ref Rectangle, int, ref VertexColors) added by CalamityMod
+[01:05:28.637] [Main Thread/DEBUG] [tML]: Hook Terraria.WaterfallManager::DrawWaterfall(int, int, int, float, Vector2, Rectangle, Color, SpriteEffects) added by CalamityMod
+[01:05:28.643] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::RenderWater() added by CalamityMod
+[01:05:28.661] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.Liquid.LiquidRenderer::DrawNormalLiquids(SpriteBatch, Vector2, int, float, bool) added by CalamityMod
+[01:05:28.780] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::oldDrawWater(bool, int, float) added by CalamityMod
+[01:05:28.829] [Main Thread/DEBUG] [tML]: Hook Terraria.Graphics.Light.TileLightScanner::GetTileLight(int, int, out Vector3) added by CalamityMod
+[01:05:28.853] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.Drawing.TileDrawing::PreDrawTiles(bool, bool, bool) added by CalamityMod
+[01:05:28.890] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.Drawing.TileDrawing::Draw(bool, bool, bool, int) added by CalamityMod
+[01:05:28.905] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.ItemDropRules.CommonCode::ModifyItemDropFromNPC(NPC, int) added by CalamityMod
+[01:05:28.967] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::UpdateItemDye(bool, bool, Item, Item) added by CalamityMod
+[01:05:29.230] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::ApplyEquipFunctional(Item, bool) added by CalamityMod
+[01:05:29.248] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::ApplyEquipVanity(Item) added by CalamityMod
+[01:05:29.562] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::UpdateArmorSets(int) added by CalamityMod
+[01:05:29.654] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::UpdateTime() added by CalamityMod
+[01:05:29.750] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::UpdateTime_SpawnTownNPCs() added by CalamityMod
+[01:05:29.755] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::ShouldEmpressBeEnraged() added by CalamityMod
+[01:05:29.768] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::CollectTaxes() added by CalamityMod
+[01:05:30.268] [Main Thread/DEBUG] [tML]: ILHook Terraria.Projectile::Damage() added by CalamityMod
+[01:05:30.282] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::ApplyTileCollision(bool, Vector2, int, int) added by CalamityMod
+[01:05:30.428] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::ApplyEquipFunctional(Item, bool) added by CalamityMod
+[01:05:30.444] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Hurt(PlayerDeathReason, int, int, out HurtInfo, bool, bool, int, bool, float, float, float) added by CalamityMod
+[01:05:30.533] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::DashMovement() added by CalamityMod
+[01:05:30.554] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::DoCommonDashHandle(out int, out bool, DashStartAction) added by CalamityMod
+[01:05:30.572] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::GiveImmuneTimeForCollisionAttack(int) added by CalamityMod
+[01:05:30.714] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Update_NPCCollision() added by CalamityMod
+[01:05:30.758] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::OpenDoor(int, int, int) added by CalamityMod
+[01:05:30.779] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::CloseDoor(int, int, bool) added by CalamityMod
+[01:05:30.784] [Main Thread/DEBUG] [tML]: Hook Terraria.Item::AffixName() added by CalamityMod
+[01:05:30.798] [Main Thread/DEBUG] [tML]: Hook Terraria.Projectile::NewProjectile(IEntitySource, float, float, float, float, int, int, float, int, float, float, float) added by CalamityMod
+[01:05:30.820] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::Collision_DecideFallThroughPlatforms() added by CalamityMod
+[01:05:31.170] [Main Thread/DEBUG] [tML]: ILHook Terraria.Wiring::HitWireSingle(int, int) added by CalamityMod
+[01:05:31.176] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::UpdateItemDye(bool, bool, Item, Item) added by CalamityMod
+[01:05:31.193] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.UI.Elements.AWorldListItem::GetDifficulty(out string, out Color) added by CalamityMod
+[01:05:31.200] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::IsItemSlotUnlockedAndUsable(int) added by CalamityMod
+[01:05:31.237] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::ApplyLifeAndOrMana(Item) added by CalamityMod
+[01:05:31.278] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::GrappleMovement() added by CalamityMod
+[01:05:31.288] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::UpdatePettingAnimal() added by CalamityMod
+[01:05:31.527] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::PlayerFrame() added by CalamityMod
+[01:05:31.533] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::SlopeDownMovement() added by CalamityMod
+[01:05:31.536] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DamageVar(float, int, float) added by CalamityMod
+[01:05:31.558] [Main Thread/DEBUG] [tML]: ILHook Terraria.NPC::ScaleStats_ApplyExpertTweaks() added by CalamityMod
+[01:05:31.610] [Main Thread/DEBUG] [tML]: ILHook Terraria.Projectile::AI_099_2() added by CalamityMod
+[01:05:32.173] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateBuffs(int) added by CalamityMod
+[01:05:32.438] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateBuffs(int) added by CalamityMod
+[01:05:32.665] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateBuffs(int) added by CalamityMod
+[01:05:32.674] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::ApplyVanillaHurtEffectModifiers(ref HurtModifiers) added by CalamityMod
+[01:05:32.702] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateJumpHeight() added by CalamityMod
+[01:05:33.375] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by CalamityMod
+[01:05:33.813] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by CalamityMod
+[01:05:34.071] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by CalamityMod
+[01:05:34.080] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::WingMovement() added by CalamityMod
+[01:05:34.096] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateLifeRegen() added by CalamityMod
+[01:05:34.105] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateLifeRegen() added by CalamityMod
+[01:05:34.593] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by CalamityMod
+[01:05:34.637] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateManaRegen() added by CalamityMod
+[01:05:34.653] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateManaRegen() added by CalamityMod
+[01:05:34.660] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::GrantPrefixBenefits(Item) added by CalamityMod
+[01:05:34.681] [Main Thread/DEBUG] [tML]: ILHook Terraria.Projectile::StatusPlayer(int) added by CalamityMod
+[01:05:34.713] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::Pyramid(int, int) added by CalamityMod
+[01:05:34.934] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::GrowLivingTree(int, int, bool) added by CalamityMod
+[01:05:34.980] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::SmashAltar(int, int) added by CalamityMod
+[01:05:35.091] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::hardUpdateWorld(int, int) added by CalamityMod
+[01:05:35.104] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::Chlorophyte(int, int) added by CalamityMod
+[01:05:35.133] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.UI.States.UIWorldCreation::SetDefaultOptions() added by CalamityMod
+[01:05:35.207] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.UI.States.UIWorldCreation::AddWorldSizeOptions(UIElement, float, MouseEvent, string, float) added by CalamityMod
+[01:05:35.213] [Main Thread/DEBUG] [tML]: Hook Terraria.IO.WorldFile::ClearTempTiles() added by CalamityMod
+[01:05:35.415] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::MakeDungeon(int, int) added by CalamityMod
+[01:05:35.558] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::DungeonHalls(int, int, ushort, int, bool) added by CalamityMod
+[01:05:35.694] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::MakeDungeon(int, int) added by CalamityMod
+[01:05:36.171] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateBuffs(int) added by CalamityMod
+[01:05:36.195] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.Events.Sandstorm::HasSufficientWind() added by CalamityMod
+[01:05:36.247] [Main Thread/DEBUG] [tML]: ILHook Terraria.Item::TryGetPrefixStatMultipliersForItem(int, out float, out float, out float, out float, out float, out float, out int) added by CalamityMod
+[01:05:36.289] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::SlimeRainSpawns(int) added by CalamityMod
+[01:05:36.303] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.ShimmerTransforms::IsItemTransformLocked(int) added by CalamityMod
+[01:05:36.344] [Main Thread/DEBUG] [tML]: ILHook Terraria.Projectile::CanExplodeTile(int, int) added by CalamityMod
+[01:05:36.387] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::UpdateWindyDayState() added by CalamityMod
+[01:05:36.468] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::UpdateTime_StartNight(ref bool) added by CalamityMod
+[01:05:36.497] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::AttemptFossilShattering(int, int, Tile, bool) added by CalamityMod
+[01:05:36.549] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::GetPickaxeDamage(int, int, int, int, Tile) added by CalamityMod
+[01:05:36.585] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::GetAnglerReward(NPC, int) added by CalamityMod
+[01:05:36.640] [Main Thread/DEBUG] [tML]: ILHook Terraria.NPC::NPCLoot() added by CalamityMod
+[01:05:36.679] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::PlayerInteraction(int) added by CalamityMod
+[01:05:36.700] [Main Thread/DEBUG] [tML]: Hook Terraria.DataStructures.PlayerDrawLayers::DrawHeldProj(PlayerDrawSet, Projectile) added by CalamityMod
+[01:05:36.747] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::ItemCheck_CheckFishingBobbers(bool) added by CalamityMod
+[01:05:36.832] [Main Thread/DEBUG] [tML]: ILHook Terraria.Map.MapHelper::CreateMapTile(int, int, byte) added by CalamityMod
+[01:05:36.896] [Main Thread/INFO] [tML]: Adding Content: Census (Census - Town NPC Checklist) v0.5.2.7
+[01:05:37.072] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::UpdateTime_SpawnTownNPCs() added by Census
+[01:05:37.080] [Main Thread/INFO] [tML]: Adding Content: AlchemistNPCLite (AlchemistNPC Lite) v1.9.8
+[01:05:37.481] [Main Thread/WARN] [tML]: AlchemistNPCLite.Items.Placeable.MateriaTransmutatorMK2 has reference fields (Calamity) that may not be safe to share between clones.
 For deep-cloning, add a custom Clone override and make proper copies of these fields. If shallow (memberwise) cloning is acceptable, mark the fields with [CloneByReference] or properties with [field: CloneByReference]
-[00:44:13.246] [Main Thread/INFO] [tML]: Adding Content: AutoReroll (Auto Reforge) v2024.8.31
-[00:44:13.260] [Main Thread/INFO] [tML]: Adding Content: AutoTrash (Auto Trash) v0.7.2
-[00:44:13.292] [Main Thread/DEBUG] [tML]: Hook Terraria.Item::NewItem_Inner(IEntitySource, int, int, int, int, Item, int, int, bool, int, bool, bool) added by AutoTrash
-[00:44:13.292] [Main Thread/INFO] [tML]: Adding Content: BetterBossBarPlus (Better Boss Health Bar for 1.4.4+) v0.9.2.4
-[00:44:13.329] [Main Thread/INFO] [tML]: Adding Content: BossChecklist (Boss Checklist) v2.2.3.1
-[00:44:13.424] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::UpdateTime_StartDay(ref bool) added by BossChecklist
-[00:44:13.425] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::UpdateTime_StartNight(ref bool) added by BossChecklist
-[00:44:13.583] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::ApplyMusicBox(Item) added by BossChecklist
-[00:44:13.584] [Main Thread/INFO] [tML]: Adding Content: DisableCorruptionSpread (Begone, Evil! (Disable Evil Biome Spread)) v1.3.0.2
-[00:44:13.616] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::UpdateWorld_Inner() added by DisableCorruptionSpread
-[00:44:13.617] [Main Thread/INFO] [tML]: Adding Content: FargoSeeds (Fargo's Best of Both Worlds) v0.5.3
-[00:44:13.676] [Main Thread/INFO] [tML]: Adding Content: Fargowiltas (Fargo's Mutant Mod) v3.3.6.2
-[00:44:14.004] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawInterface_Resources_Buffs() added by Fargowiltas
-[00:44:14.380] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::ShakeTree(int, int) added by Fargowiltas
-[00:44:14.544] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::DoCommonDashHandle(out int, out bool, DashStartAction) added by Fargowiltas
-[00:44:14.547] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::KeyDoubleTap(int) added by Fargowiltas
-[00:44:14.559] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::KeyHoldDown(int, int) added by Fargowiltas
-[00:44:14.601] [Main Thread/DEBUG] [tML]: Hook Terraria.Recipe::FindRecipes(bool) added by Fargowiltas
-[00:44:14.638] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::CountTileTypesInArea(Int32[], int, int, int, int) added by Fargowiltas
-[00:44:14.674] [Main Thread/DEBUG] [tML]: Hook Terraria.SceneMetrics::ExportTileCountsToMain() added by Fargowiltas
-[00:44:14.685] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::HasUnityPotion() added by Fargowiltas
-[00:44:14.705] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::TakeUnityPotion() added by Fargowiltas
-[00:44:14.717] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::DropTombstone(long, NetworkText, int) added by Fargowiltas
-[00:44:14.718] [Main Thread/INFO] [tML]: Adding Content: Luminance (Luminance) v1.0.12
-[00:44:14.728] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawNPCs(bool) added by Luminance
-[00:44:14.785] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawDust() added by Luminance
-[00:44:14.803] [Main Thread/DEBUG] [tML]: Hook Terraria.Graphics.Effects.FilterManager::EndCapture(RenderTarget2D, RenderTarget2D, RenderTarget2D, Color) added by Luminance
-[00:44:14.853] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::DrawItemTextPopups(float) added by Luminance
-[00:44:14.882] [Main Thread/DEBUG] [tML]: Hook Terraria.Graphics.Shaders.ArmorShaderData::Apply(Entity, Nullable`1) added by Luminance
-[00:44:14.923] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::SetDisplayMode(int, int, bool) added by Luminance
-[00:44:14.957] [Main Thread/DEBUG] [tML]: Hook Terraria.Audio.SoundEngine::Update() added by Luminance
-[00:44:14.960] [Main Thread/INFO] [tML]: Adding Content: FargowiltasSouls (Fargo's Souls Mod) v1.7.2.14
-[00:44:15.511] [Main Thread/DEBUG] [tML]: Hook Terraria.Graphics.Renderers.LegacyPlayerRenderer::DrawPlayers(Camera, IEnumerable`1) added by FargowiltasSouls
-[00:44:15.739] [Main Thread/DEBUG] [tML]: Hook Terraria.DataStructures.PlayerDrawLayers::DrawPlayer_09_Wings(ref PlayerDrawSet) added by FargowiltasSouls
-[00:44:15.779] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::WingFrame(bool, bool) added by FargowiltasSouls
-[00:44:16.603] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::GrantPrefixBenefits(Item) added by FargowiltasSouls
-[00:44:17.816] [Main Thread/DEBUG] [tML]: Hook Terraria.Projectile::GetFairyQueenWeaponsColor(float, float, Nullable`1) added by FargowiltasSouls
-[00:44:18.375] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::Pyramid(int, int) added by FargowiltasSouls
-[00:44:18.536] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::PlaceTile(int, int, int, bool, bool, int, int) added by FargowiltasSouls
-[00:44:18.571] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::CanKillTile(int, int, out bool) added by FargowiltasSouls
-[00:44:18.585] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::PickWall(int, int, int) added by FargowiltasSouls
-[00:44:18.599] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::KillWall(int, int, bool) added by FargowiltasSouls
-[00:44:18.600] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::KeyDoubleTap(int) added by FargowiltasSouls
-[00:44:18.908] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::MouseText_DrawItemTooltip_GetLinesInfo(Item, ref int, ref int, float, ref int, String[], Boolean[], Boolean[], String[], out int) added by FargowiltasSouls
-[00:44:18.939] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawInterface_35_YouDied() added by FargowiltasSouls
-[00:44:18.956] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::CheckSpawn_Internal(int, int) added by FargowiltasSouls
-[00:44:18.975] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::AddBuff(int, int, bool, bool) added by FargowiltasSouls
-[00:44:18.991] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::QuickHeal_GetItemToUse() added by FargowiltasSouls
-[00:44:19.072] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::CheckDrowning() added by FargowiltasSouls
-[00:44:19.093] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::HorsemansBlade_SpawnPumpkin(int, int, float) added by FargowiltasSouls
-[00:44:19.386] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::ItemCheck_Shoot(int, Item, int) added by FargowiltasSouls
-[00:44:19.392] [Main Thread/DEBUG] [tML]: Hook Terraria.Projectile::AI_019_Spears_GetExtensionHitbox(out Rectangle) added by FargowiltasSouls
-[00:44:19.396] [Main Thread/DEBUG] [tML]: Hook Terraria.Item::AffixName() added by FargowiltasSouls
-[00:44:19.405] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::AI_123_Deerclops_TryMakingSpike_FindBestY(ref Point, int) added by FargowiltasSouls
-[00:44:19.430] [Main Thread/DEBUG] [tML]: Hook Terraria.Utilities.NPCUtils::TargetClosestBetsy(NPC, bool, Nullable`1) added by FargowiltasSouls
-[00:44:19.437] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.ShimmerTransforms::IsItemTransformLocked(int) added by FargowiltasSouls
-[00:44:19.454] [Main Thread/INFO] [tML]: Adding Content: FargowiltasCrossmod (Calamity - Fargo's Souls DLC) v1.2.0.14
-[00:44:19.908] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::MouseText_DrawItemTooltip(MouseTextCache, int, byte, int, int) added by FargowiltasCrossmod
-[00:44:19.963] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::RefreshDoubleJumps() added by FargowiltasCrossmod
-[00:44:19.966] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::RefreshMovementAbilities(bool) added by FargowiltasCrossmod
-[00:44:19.967] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::GrappleMovement() added by FargowiltasCrossmod
-[00:44:19.980] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::AddBuff(int, int, bool) added by FargowiltasCrossmod
-[00:44:19.981] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.ShimmerTransforms::IsItemTransformLocked(int) added by FargowiltasCrossmod
-[00:44:20.004] [Main Thread/DEBUG] [tML]: Hook Fargowiltas.NPCs.Deviantt::OnChatButtonClicked(bool, ref string) added by FargowiltasCrossmod
-[00:44:20.008] [Main Thread/DEBUG] [tML]: Hook Fargowiltas.NPCs.Deviantt::AddShops() added by FargowiltasCrossmod
-[00:44:20.024] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawProjectiles() added by FargowiltasCrossmod
-[00:44:20.034] [Main Thread/DEBUG] [tML]: Hook CalamityMod.Systems.WorldMiscUpdateSystem::HandleDraedonSummoning() added by FargowiltasCrossmod
-[00:44:20.041] [Main Thread/DEBUG] [tML]: Hook CalamityMod.UI.DraedonSummoning.ExoMechSelectionUI::Draw() added by FargowiltasCrossmod
-[00:44:20.049] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::DoDeathEvents_DropBossPotionsAndHearts(ref string) added by FargowiltasCrossmod
-[00:44:20.058] [Main Thread/INFO] [tML]: Adding Content: HEROsMod (HERO's Mod) v0.4.17.1
-[00:44:20.103] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::ChatColor() added by HEROsMod
-[00:44:20.147] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::SpawnOnPlayer(int, int) added by HEROsMod
-[00:44:20.148] [Main Thread/INFO] [tML]: Adding Content: SerousCommonLib (absoluteAquarian Utilities (SerousCommonLib)) v1.0.6.1
-[00:44:20.164] [Main Thread/DEBUG] [tML]: ILHook Terraria.UI.UIElement::Recalculate() added by SerousCommonLib
-[00:44:20.167] [Main Thread/DEBUG] [tML]: Hook Terraria.ModLoader.TileLoader::NearbyEffects(int, int, int, bool) added by SerousCommonLib
-[00:44:20.170] [Main Thread/INFO] [tML]: Adding Content: MagicStorage (Magic Storage) v0.7.0.8
-[00:44:20.261] [Main Thread/DEBUG] [tML]: Hook Terraria.Recipe::FindRecipes(bool) added by MagicStorage
-[00:44:20.265] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::QuickSpawnItem(IEntitySource, int, int) added by MagicStorage
-[00:44:20.276] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawInterface_36_Cursor() added by MagicStorage
-[00:44:20.282] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.Achievements.AchievementsHelper::NotifyItemCraft(Recipe) added by MagicStorage
-[00:44:20.289] [Main Thread/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::MouseHover(Item[], int, int) added by MagicStorage
-[00:44:20.290] [Main Thread/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::LeftClick(Item[], int, int) added by MagicStorage
-[00:44:20.311] [Main Thread/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::RightClick(Item[], int, int) added by MagicStorage
-[00:44:20.328] [Main Thread/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::OverrideHover(Item[], int, int) added by MagicStorage
-[00:44:20.338] [Main Thread/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::OverrideLeftClick(Item[], int, int) added by MagicStorage
-[00:44:20.359] [Main Thread/DEBUG] [tML]: ILHook Terraria.UI.ItemSlot::OverrideHover(Item[], int, int) added by MagicStorage
-[00:44:20.371] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.Drawing.ParticleOrchestrator::Spawn_ItemTransfer(ParticleOrchestraSettings) added by MagicStorage
-[00:44:20.410] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::ItemCheck_ApplyHoldStyle_Inner(float, Item, Rectangle) added by MagicStorage
-[00:44:20.417] [Main Thread/DEBUG] [tML]: Hook Terraria.ModLoader.TileLoader::NearbyEffects(int, int, int, bool) added by MagicStorage
-[00:44:20.433] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::DoUpdate_HandleChat() added by MagicStorage
-[00:44:20.457] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.Bestiary.BestiaryDatabase::ExtractDropsForNPC(ItemDropDatabase, int) added by MagicStorage
-[00:44:20.469] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.Bestiary.ItemDropBestiaryInfoElement::ProvideUIElement(BestiaryUICollectionInfo) added by MagicStorage
-[00:44:20.496] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::QuickStackAllChests() added by MagicStorage
-[00:44:20.504] [Main Thread/DEBUG] [tML]: ILHook Terraria.Chest::ServerPlaceItem(int, int) added by MagicStorage
-[00:44:20.517] [Main Thread/DEBUG] [tML]: ILHook Terraria.ModLoader.RecipeLoader::AddRecipes() added by MagicStorage
-[00:44:20.521] [Main Thread/DEBUG] [tML]: ILHook Terraria.ModLoader.RecipeLoader::PostAddRecipes() added by MagicStorage
-[00:44:20.525] [Main Thread/DEBUG] [tML]: ILHook Terraria.ModLoader.RecipeLoader::PostSetupRecipes() added by MagicStorage
-[00:44:20.532] [Main Thread/DEBUG] [tML]: ILHook Terraria.Item::FindDecraftAmount() added by MagicStorage
-[00:44:20.549] [Main Thread/DEBUG] [tML]: ILHook Terraria.Collision::SolidCollision(Vector2, int, int, bool) added by MagicStorage
-[00:44:20.570] [Main Thread/DEBUG] [tML]: ILHook Terraria.Collision::HitTiles(Vector2, Vector2, int, int) added by MagicStorage
-[00:44:20.576] [Main Thread/DEBUG] [tML]: ILHook Terraria.Collision::SolidTiles(int, int, int, int, bool) added by MagicStorage
-[00:44:20.647] [Main Thread/DEBUG] [tML]: ILHook Terraria.Collision::StepUp(ref Vector2, ref Vector2, int, int, ref float, ref float, int, bool, int) added by MagicStorage
-[00:44:20.652] [Main Thread/DEBUG] [tML]: ILHook Terraria.Collision::GetTileRotation(Vector2) added by MagicStorage
-[00:44:20.687] [Main Thread/DEBUG] [tML]: ILHook Terraria.Collision::TileCollision(Vector2, Vector2, int, int, bool, bool, int) added by MagicStorage
-[00:44:20.703] [Main Thread/DEBUG] [tML]: ILHook Terraria.Collision::AdvancedTileCollision(Boolean[], Vector2, Vector2, int, int, bool, bool, int) added by MagicStorage
-[00:44:20.718] [Main Thread/DEBUG] [tML]: ILHook Terraria.Collision::SlopeCollision(Vector2, Vector2, int, int, float, bool) added by MagicStorage
-[00:44:20.725] [Main Thread/DEBUG] [tML]: ILHook Terraria.Collision::noSlopeCollision(Vector2, Vector2, int, int, bool, bool) added by MagicStorage
-[00:44:20.763] [Main Thread/DEBUG] [MagicStorage]: EnvironmentModule "MagicStorage/JourneyInfiniteItems" added by mod "MagicStorage"
-[00:44:20.763] [Main Thread/DEBUG] [MagicStorage]: EnvironmentModule "MagicStorage/UseInventoryModule" added by mod "MagicStorage"
-[00:44:20.763] [Main Thread/DEBUG] [MagicStorage]: EnvironmentModule "MagicStorage/UseInventoryNoFavoritesModule" added by mod "MagicStorage"
-[00:44:20.801] [Main Thread/INFO] [tML]: Adding Content: miningcracks_take_on_luiafk (LuiAFK Reborn) v1.2.5
-[00:44:21.167] [Main Thread/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::PickItemMovementAction(Item[], int, int, Item) added by miningcracks_take_on_luiafk
-[00:44:21.174] [Main Thread/INFO] [tML]: Adding Content: MoreAccessories (More Accessory Slots (More Accessories)) v1.4.2
-[00:44:21.208] [Main Thread/DEBUG] [MoreAccessories]: Pre-loading 30 Additional Accessory Slots
-[00:44:21.209] [Main Thread/INFO] [tML]: Adding Content: NoFishingQuests (Angler Shop) v3.2.0.5
-[00:44:21.242] [Main Thread/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::PickItemMovementAction(Item[], int, int, Item) added by NoFishingQuests
-[00:44:21.243] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::GetAnglerReward(NPC, int) added by NoFishingQuests
-[00:44:21.243] [Main Thread/INFO] [tML]: Adding Content: NoPylonRestrictions (No Pylon Restrictions) v0.1.3.7
-[00:44:21.263] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::IsTileTypeInInteractionRange(int, TileReachCheckSettings) added by NoPylonRestrictions
-[00:44:21.270] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::InInteractionRange(int, int, TileReachCheckSettings) added by NoPylonRestrictions
-[00:44:21.292] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.TeleportPylonsSystem::HandleTeleportRequest(TeleportPylonInfo, int) added by NoPylonRestrictions
-[00:44:21.292] [Main Thread/INFO] [tML]: Adding Content: OreExcavator (Ore Excavator (1.4.3/1.4.4 Veinminer)) v0.8.9
-[00:44:21.368] [Main Thread/INFO] [OreExcavator]: Loading [Ore Excavator (1.4.3/1.4.4 Veinminer)] - v0.8.9... (RELEASE)
-[00:44:21.379] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::SpawnFallingBlockProjectile(int, int, Tile, Tile, Tile, int) added by OreExcavator
-[00:44:21.379] [Main Thread/INFO] [tML]: Adding Content: RecipeBrowser (Recipe Browser) v0.10.11.1
-[00:44:21.425] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::AdjTiles() added by RecipeBrowser
-[00:44:21.426] [Main Thread/INFO] [tML]: Adding Content: ShorterRespawn (Shorter Respawn Time) v1.2
-[00:44:21.436] [Main Thread/INFO] [tML]: Adding Content: SubworldLibrary (Subworld Library) v2.2.3.1
-[00:44:21.495] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::clearWorld() added by SubworldLibrary
-[00:44:21.575] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::DoUpdateInWorld(Stopwatch) added by SubworldLibrary
-[00:44:21.581] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::UpdateWorld() added by SubworldLibrary
-[00:44:21.778] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by SubworldLibrary
-[00:44:21.790] [Main Thread/DEBUG] [tML]: ILHook Terraria.NPC::UpdateNPC_UpdateGravity() added by SubworldLibrary
-[00:44:21.958] [Main Thread/DEBUG] [tML]: ILHook Terraria.Liquid::Update() added by SubworldLibrary
-[00:44:21.980] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::SavePlayer(PlayerFileData, bool) added by SubworldLibrary
-[00:44:21.991] [Main Thread/DEBUG] [tML]: ILHook Terraria.IO.WorldFile::SaveWorld(bool, bool) added by SubworldLibrary
-[00:44:21.994] [Main Thread/DEBUG] [tML]: ILHook Terraria.Netplay::UpdateServerInMainThread() added by SubworldLibrary
-[00:44:22.001] [Main Thread/DEBUG] [tML]: ILHook Terraria.Net.Sockets.SocialSocket::Terraria.Net.Sockets.ISocket.AsyncSend(Byte[], int, int, SocketSendCallback, object) added by SubworldLibrary
-[00:44:22.009] [Main Thread/DEBUG] [tML]: ILHook Terraria.Net.Sockets.TcpSocket::Terraria.Net.Sockets.ISocket.AsyncSend(Byte[], int, int, SocketSendCallback, object) added by SubworldLibrary
-[00:44:22.023] [Main Thread/DEBUG] [tML]: ILHook Terraria.NetMessage::CheckBytes(int) added by SubworldLibrary
-[00:44:22.027] [Main Thread/ERROR] [SubworldLibrary]: FAILED:
-[00:44:22.030] [Main Thread/DEBUG] [tML]: ILHook Terraria.Netplay::UpdateConnectedClients() added by SubworldLibrary
-[00:44:22.033] [Main Thread/INFO] [tML]: Adding Content: StarsAbove (The Stars Above) v2.1.7.1
-[00:44:22.400] [Main Thread/DEBUG] [tML]: Hook Terraria.Graphics.Light.TileLightScanner::GetTileLight(int, int, out Vector3) added by StarsAbove
-[00:44:22.608] [Main Thread/DEBUG] [tML]: Hook Terraria.Graphics.Light.TileLightScanner::GetTileLight(int, int, out Vector3) added by StarsAbove
-[00:44:22.641] [Main Thread/DEBUG] [tML]: Hook Terraria.Graphics.Light.TileLightScanner::GetTileLight(int, int, out Vector3) added by StarsAbove
-[00:44:22.674] [Main Thread/WARN] [tML]: StarsAbove.Systems.Items.ItemMemorySystem has reference fields (EquippedMemories, legendaryShieldMemories, StarsAboveGlobalItem) that may not be safe to share between clones.
+[01:05:37.533] [Main Thread/INFO] [tML]: Adding Content: AutoReroll (Auto Reforge) v2024.8.31
+[01:05:37.551] [Main Thread/INFO] [tML]: Adding Content: AutoTrash (Auto Trash) v0.7.2
+[01:05:37.665] [Main Thread/DEBUG] [tML]: Hook Terraria.Item::NewItem_Inner(IEntitySource, int, int, int, int, Item, int, int, bool, int, bool, bool) added by AutoTrash
+[01:05:37.670] [Main Thread/INFO] [tML]: Adding Content: BetterBossBarPlus (Better Boss Health Bar for 1.4.4+) v0.9.2.4
+[01:05:37.696] [Main Thread/INFO] [tML]: Adding Content: BossChecklist (Boss Checklist) v2.2.3.1
+[01:05:38.047] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::UpdateTime_StartDay(ref bool) added by BossChecklist
+[01:05:38.063] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::UpdateTime_StartNight(ref bool) added by BossChecklist
+[01:05:38.451] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::ApplyMusicBox(Item) added by BossChecklist
+[01:05:38.451] [Main Thread/INFO] [tML]: Adding Content: DisableCorruptionSpread (Begone, Evil! (Disable Evil Biome Spread)) v1.3.0.2
+[01:05:38.639] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::UpdateWorld_Inner() added by DisableCorruptionSpread
+[01:05:38.647] [Main Thread/INFO] [tML]: Adding Content: FargoSeeds (Fargo's Best of Both Worlds) v0.5.3
+[01:05:38.837] [Main Thread/INFO] [tML]: Adding Content: Fargowiltas (Fargo's Mutant Mod) v3.3.6.2
+[01:05:39.126] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawInterface_Resources_Buffs() added by Fargowiltas
+[01:05:39.628] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::ShakeTree(int, int) added by Fargowiltas
+[01:05:39.866] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::DoCommonDashHandle(out int, out bool, DashStartAction) added by Fargowiltas
+[01:05:39.880] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::KeyDoubleTap(int) added by Fargowiltas
+[01:05:39.896] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::KeyHoldDown(int, int) added by Fargowiltas
+[01:05:39.928] [Main Thread/DEBUG] [tML]: Hook Terraria.Recipe::FindRecipes(bool) added by Fargowiltas
+[01:05:39.940] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::CountTileTypesInArea(Int32[], int, int, int, int) added by Fargowiltas
+[01:05:39.962] [Main Thread/DEBUG] [tML]: Hook Terraria.SceneMetrics::ExportTileCountsToMain() added by Fargowiltas
+[01:05:39.979] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::HasUnityPotion() added by Fargowiltas
+[01:05:39.997] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::TakeUnityPotion() added by Fargowiltas
+[01:05:40.080] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::DropTombstone(long, NetworkText, int) added by Fargowiltas
+[01:05:40.080] [Main Thread/INFO] [tML]: Adding Content: Luminance (Luminance) v1.0.12
+[01:05:40.138] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawNPCs(bool) added by Luminance
+[01:05:40.179] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawDust() added by Luminance
+[01:05:40.228] [Main Thread/DEBUG] [tML]: Hook Terraria.Graphics.Effects.FilterManager::EndCapture(RenderTarget2D, RenderTarget2D, RenderTarget2D, Color) added by Luminance
+[01:05:40.326] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::DrawItemTextPopups(float) added by Luminance
+[01:05:40.377] [Main Thread/DEBUG] [tML]: Hook Terraria.Graphics.Shaders.ArmorShaderData::Apply(Entity, Nullable`1) added by Luminance
+[01:05:40.439] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::SetDisplayMode(int, int, bool) added by Luminance
+[01:05:40.496] [Main Thread/DEBUG] [tML]: Hook Terraria.Audio.SoundEngine::Update() added by Luminance
+[01:05:40.496] [Main Thread/INFO] [tML]: Adding Content: FargowiltasSouls (Fargo's Souls Mod) v1.7.2.14
+[01:05:41.279] [Main Thread/DEBUG] [tML]: Hook Terraria.Graphics.Renderers.LegacyPlayerRenderer::DrawPlayers(Camera, IEnumerable`1) added by FargowiltasSouls
+[01:05:41.463] [Main Thread/DEBUG] [tML]: Hook Terraria.DataStructures.PlayerDrawLayers::DrawPlayer_09_Wings(ref PlayerDrawSet) added by FargowiltasSouls
+[01:05:41.620] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::WingFrame(bool, bool) added by FargowiltasSouls
+[01:05:42.806] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::GrantPrefixBenefits(Item) added by FargowiltasSouls
+[01:05:44.133] [Main Thread/DEBUG] [tML]: Hook Terraria.Projectile::GetFairyQueenWeaponsColor(float, float, Nullable`1) added by FargowiltasSouls
+[01:05:44.618] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::Pyramid(int, int) added by FargowiltasSouls
+[01:05:44.832] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::PlaceTile(int, int, int, bool, bool, int, int) added by FargowiltasSouls
+[01:05:44.848] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::CanKillTile(int, int, out bool) added by FargowiltasSouls
+[01:05:44.855] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::PickWall(int, int, int) added by FargowiltasSouls
+[01:05:44.868] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::KillWall(int, int, bool) added by FargowiltasSouls
+[01:05:44.873] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::KeyDoubleTap(int) added by FargowiltasSouls
+[01:05:45.030] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::MouseText_DrawItemTooltip_GetLinesInfo(Item, ref int, ref int, float, ref int, String[], Boolean[], Boolean[], String[], out int) added by FargowiltasSouls
+[01:05:45.102] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawInterface_35_YouDied() added by FargowiltasSouls
+[01:05:45.120] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::CheckSpawn_Internal(int, int) added by FargowiltasSouls
+[01:05:45.146] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::AddBuff(int, int, bool, bool) added by FargowiltasSouls
+[01:05:45.159] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::QuickHeal_GetItemToUse() added by FargowiltasSouls
+[01:05:45.221] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::CheckDrowning() added by FargowiltasSouls
+[01:05:45.231] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::HorsemansBlade_SpawnPumpkin(int, int, float) added by FargowiltasSouls
+[01:05:45.336] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::ItemCheck_Shoot(int, Item, int) added by FargowiltasSouls
+[01:05:45.341] [Main Thread/DEBUG] [tML]: Hook Terraria.Projectile::AI_019_Spears_GetExtensionHitbox(out Rectangle) added by FargowiltasSouls
+[01:05:45.343] [Main Thread/DEBUG] [tML]: Hook Terraria.Item::AffixName() added by FargowiltasSouls
+[01:05:45.410] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::AI_123_Deerclops_TryMakingSpike_FindBestY(ref Point, int) added by FargowiltasSouls
+[01:05:45.455] [Main Thread/DEBUG] [tML]: Hook Terraria.Utilities.NPCUtils::TargetClosestBetsy(NPC, bool, Nullable`1) added by FargowiltasSouls
+[01:05:45.460] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.ShimmerTransforms::IsItemTransformLocked(int) added by FargowiltasSouls
+[01:05:45.467] [Main Thread/INFO] [tML]: Adding Content: FargowiltasCrossmod (Calamity - Fargo's Souls DLC) v1.2.0.14
+[01:05:46.249] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::MouseText_DrawItemTooltip(MouseTextCache, int, byte, int, int) added by FargowiltasCrossmod
+[01:05:46.383] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::RefreshDoubleJumps() added by FargowiltasCrossmod
+[01:05:46.397] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::RefreshMovementAbilities(bool) added by FargowiltasCrossmod
+[01:05:46.401] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::GrappleMovement() added by FargowiltasCrossmod
+[01:05:46.457] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::AddBuff(int, int, bool) added by FargowiltasCrossmod
+[01:05:46.458] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.ShimmerTransforms::IsItemTransformLocked(int) added by FargowiltasCrossmod
+[01:05:46.520] [Main Thread/DEBUG] [tML]: Hook Fargowiltas.NPCs.Deviantt::OnChatButtonClicked(bool, ref string) added by FargowiltasCrossmod
+[01:05:46.529] [Main Thread/DEBUG] [tML]: Hook Fargowiltas.NPCs.Deviantt::AddShops() added by FargowiltasCrossmod
+[01:05:46.573] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawProjectiles() added by FargowiltasCrossmod
+[01:05:46.605] [Main Thread/DEBUG] [tML]: Hook CalamityMod.Systems.WorldMiscUpdateSystem::HandleDraedonSummoning() added by FargowiltasCrossmod
+[01:05:46.615] [Main Thread/DEBUG] [tML]: Hook CalamityMod.UI.DraedonSummoning.ExoMechSelectionUI::Draw() added by FargowiltasCrossmod
+[01:05:46.636] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::DoDeathEvents_DropBossPotionsAndHearts(ref string) added by FargowiltasCrossmod
+[01:05:46.656] [Main Thread/INFO] [tML]: Adding Content: HEROsMod (HERO's Mod) v0.4.17.1
+[01:05:46.799] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::ChatColor() added by HEROsMod
+[01:05:46.888] [Main Thread/DEBUG] [tML]: Hook Terraria.NPC::SpawnOnPlayer(int, int) added by HEROsMod
+[01:05:46.888] [Main Thread/INFO] [tML]: Adding Content: SerousCommonLib (absoluteAquarian Utilities (SerousCommonLib)) v1.0.6.1
+[01:05:46.957] [Main Thread/DEBUG] [tML]: ILHook Terraria.UI.UIElement::Recalculate() added by SerousCommonLib
+[01:05:46.973] [Main Thread/DEBUG] [tML]: Hook Terraria.ModLoader.TileLoader::NearbyEffects(int, int, int, bool) added by SerousCommonLib
+[01:05:46.984] [Main Thread/INFO] [tML]: Adding Content: MagicStorage (Magic Storage) v0.7.0.8
+[01:05:47.260] [Main Thread/DEBUG] [tML]: Hook Terraria.Recipe::FindRecipes(bool) added by MagicStorage
+[01:05:47.277] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::QuickSpawnItem(IEntitySource, int, int) added by MagicStorage
+[01:05:47.306] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawInterface_36_Cursor() added by MagicStorage
+[01:05:47.325] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.Achievements.AchievementsHelper::NotifyItemCraft(Recipe) added by MagicStorage
+[01:05:47.336] [Main Thread/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::MouseHover(Item[], int, int) added by MagicStorage
+[01:05:47.343] [Main Thread/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::LeftClick(Item[], int, int) added by MagicStorage
+[01:05:47.369] [Main Thread/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::RightClick(Item[], int, int) added by MagicStorage
+[01:05:47.403] [Main Thread/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::OverrideHover(Item[], int, int) added by MagicStorage
+[01:05:47.427] [Main Thread/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::OverrideLeftClick(Item[], int, int) added by MagicStorage
+[01:05:47.461] [Main Thread/DEBUG] [tML]: ILHook Terraria.UI.ItemSlot::OverrideHover(Item[], int, int) added by MagicStorage
+[01:05:47.476] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.Drawing.ParticleOrchestrator::Spawn_ItemTransfer(ParticleOrchestraSettings) added by MagicStorage
+[01:05:47.525] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::ItemCheck_ApplyHoldStyle_Inner(float, Item, Rectangle) added by MagicStorage
+[01:05:47.533] [Main Thread/DEBUG] [tML]: Hook Terraria.ModLoader.TileLoader::NearbyEffects(int, int, int, bool) added by MagicStorage
+[01:05:47.547] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::DoUpdate_HandleChat() added by MagicStorage
+[01:05:47.579] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.Bestiary.BestiaryDatabase::ExtractDropsForNPC(ItemDropDatabase, int) added by MagicStorage
+[01:05:47.587] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.Bestiary.ItemDropBestiaryInfoElement::ProvideUIElement(BestiaryUICollectionInfo) added by MagicStorage
+[01:05:47.652] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::QuickStackAllChests() added by MagicStorage
+[01:05:47.671] [Main Thread/DEBUG] [tML]: ILHook Terraria.Chest::ServerPlaceItem(int, int) added by MagicStorage
+[01:05:47.695] [Main Thread/DEBUG] [tML]: ILHook Terraria.ModLoader.RecipeLoader::AddRecipes() added by MagicStorage
+[01:05:47.702] [Main Thread/DEBUG] [tML]: ILHook Terraria.ModLoader.RecipeLoader::PostAddRecipes() added by MagicStorage
+[01:05:47.715] [Main Thread/DEBUG] [tML]: ILHook Terraria.ModLoader.RecipeLoader::PostSetupRecipes() added by MagicStorage
+[01:05:47.748] [Main Thread/DEBUG] [tML]: ILHook Terraria.Item::FindDecraftAmount() added by MagicStorage
+[01:05:47.786] [Main Thread/DEBUG] [tML]: ILHook Terraria.Collision::SolidCollision(Vector2, int, int, bool) added by MagicStorage
+[01:05:47.804] [Main Thread/DEBUG] [tML]: ILHook Terraria.Collision::HitTiles(Vector2, Vector2, int, int) added by MagicStorage
+[01:05:47.807] [Main Thread/DEBUG] [tML]: ILHook Terraria.Collision::SolidTiles(int, int, int, int, bool) added by MagicStorage
+[01:05:47.831] [Main Thread/DEBUG] [tML]: ILHook Terraria.Collision::StepUp(ref Vector2, ref Vector2, int, int, ref float, ref float, int, bool, int) added by MagicStorage
+[01:05:47.838] [Main Thread/DEBUG] [tML]: ILHook Terraria.Collision::GetTileRotation(Vector2) added by MagicStorage
+[01:05:47.870] [Main Thread/DEBUG] [tML]: ILHook Terraria.Collision::TileCollision(Vector2, Vector2, int, int, bool, bool, int) added by MagicStorage
+[01:05:47.881] [Main Thread/DEBUG] [tML]: ILHook Terraria.Collision::AdvancedTileCollision(Boolean[], Vector2, Vector2, int, int, bool, bool, int) added by MagicStorage
+[01:05:47.899] [Main Thread/DEBUG] [tML]: ILHook Terraria.Collision::SlopeCollision(Vector2, Vector2, int, int, float, bool) added by MagicStorage
+[01:05:47.909] [Main Thread/DEBUG] [tML]: ILHook Terraria.Collision::noSlopeCollision(Vector2, Vector2, int, int, bool, bool) added by MagicStorage
+[01:05:47.955] [Main Thread/DEBUG] [MagicStorage]: EnvironmentModule "MagicStorage/JourneyInfiniteItems" added by mod "MagicStorage"
+[01:05:47.960] [Main Thread/DEBUG] [MagicStorage]: EnvironmentModule "MagicStorage/UseInventoryModule" added by mod "MagicStorage"
+[01:05:47.961] [Main Thread/DEBUG] [MagicStorage]: EnvironmentModule "MagicStorage/UseInventoryNoFavoritesModule" added by mod "MagicStorage"
+[01:05:48.014] [Main Thread/INFO] [tML]: Adding Content: miningcracks_take_on_luiafk (LuiAFK Reborn) v1.2.5
+[01:05:48.483] [Main Thread/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::PickItemMovementAction(Item[], int, int, Item) added by miningcracks_take_on_luiafk
+[01:05:48.504] [Main Thread/INFO] [tML]: Adding Content: MoreAccessories (More Accessory Slots (More Accessories)) v1.4.2
+[01:05:48.518] [Main Thread/DEBUG] [MoreAccessories]: Pre-loading 30 Additional Accessory Slots
+[01:05:48.519] [Main Thread/INFO] [tML]: Adding Content: NoFishingQuests (Angler Shop) v3.2.0.5
+[01:05:48.541] [Main Thread/DEBUG] [tML]: Hook Terraria.UI.ItemSlot::PickItemMovementAction(Item[], int, int, Item) added by NoFishingQuests
+[01:05:48.557] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::GetAnglerReward(NPC, int) added by NoFishingQuests
+[01:05:48.562] [Main Thread/INFO] [tML]: Adding Content: NoPylonRestrictions (No Pylon Restrictions) v0.1.3.7
+[01:05:48.635] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::IsTileTypeInInteractionRange(int, TileReachCheckSettings) added by NoPylonRestrictions
+[01:05:48.678] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::InInteractionRange(int, int, TileReachCheckSettings) added by NoPylonRestrictions
+[01:05:48.755] [Main Thread/DEBUG] [tML]: ILHook Terraria.GameContent.TeleportPylonsSystem::HandleTeleportRequest(TeleportPylonInfo, int) added by NoPylonRestrictions
+[01:05:48.757] [Main Thread/INFO] [tML]: Adding Content: OneStopNPCShop (The Shop Market) v1.2.3.2
+[01:05:48.800] [Main Thread/INFO] [tML]: Adding Content: OreExcavator (Ore Excavator (1.4.3/1.4.4 Veinminer)) v0.8.9
+[01:05:49.203] [Main Thread/INFO] [OreExcavator]: Loading [Ore Excavator (1.4.3/1.4.4 Veinminer)] - v0.8.9... (RELEASE)
+[01:05:49.225] [Main Thread/DEBUG] [tML]: Hook Terraria.WorldGen::SpawnFallingBlockProjectile(int, int, Tile, Tile, Tile, int) added by OreExcavator
+[01:05:49.225] [Main Thread/INFO] [tML]: Adding Content: RecipeBrowser (Recipe Browser) v0.10.11.1
+[01:05:49.293] [Main Thread/DEBUG] [tML]: Hook Terraria.Player::AdjTiles() added by RecipeBrowser
+[01:05:49.297] [Main Thread/INFO] [tML]: Adding Content: ShorterRespawn (Shorter Respawn Time) v1.2
+[01:05:49.346] [Main Thread/INFO] [tML]: Adding Content: SubworldLibrary (Subworld Library) v2.2.3.1
+[01:05:49.455] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::clearWorld() added by SubworldLibrary
+[01:05:49.609] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::DoUpdateInWorld(Stopwatch) added by SubworldLibrary
+[01:05:49.621] [Main Thread/DEBUG] [tML]: ILHook Terraria.WorldGen::UpdateWorld() added by SubworldLibrary
+[01:05:50.228] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by SubworldLibrary
+[01:05:50.238] [Main Thread/DEBUG] [tML]: ILHook Terraria.NPC::UpdateNPC_UpdateGravity() added by SubworldLibrary
+[01:05:50.311] [Main Thread/DEBUG] [tML]: ILHook Terraria.Liquid::Update() added by SubworldLibrary
+[01:05:50.361] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::SavePlayer(PlayerFileData, bool) added by SubworldLibrary
+[01:05:50.383] [Main Thread/DEBUG] [tML]: ILHook Terraria.IO.WorldFile::SaveWorld(bool, bool) added by SubworldLibrary
+[01:05:50.407] [Main Thread/DEBUG] [tML]: ILHook Terraria.Netplay::UpdateServerInMainThread() added by SubworldLibrary
+[01:05:50.438] [Main Thread/DEBUG] [tML]: ILHook Terraria.Net.Sockets.SocialSocket::Terraria.Net.Sockets.ISocket.AsyncSend(Byte[], int, int, SocketSendCallback, object) added by SubworldLibrary
+[01:05:50.514] [Main Thread/DEBUG] [tML]: ILHook Terraria.Net.Sockets.TcpSocket::Terraria.Net.Sockets.ISocket.AsyncSend(Byte[], int, int, SocketSendCallback, object) added by SubworldLibrary
+[01:05:50.584] [Main Thread/DEBUG] [tML]: ILHook Terraria.NetMessage::CheckBytes(int) added by SubworldLibrary
+[01:05:50.606] [Main Thread/ERROR] [SubworldLibrary]: FAILED:
+[01:05:50.623] [Main Thread/DEBUG] [tML]: ILHook Terraria.Netplay::UpdateConnectedClients() added by SubworldLibrary
+[01:05:50.632] [Main Thread/INFO] [tML]: Adding Content: StarsAbove (The Stars Above) v2.1.7.1
+[01:05:51.770] [Main Thread/DEBUG] [tML]: Hook Terraria.Graphics.Light.TileLightScanner::GetTileLight(int, int, out Vector3) added by StarsAbove
+[01:05:51.939] [Main Thread/DEBUG] [tML]: Hook Terraria.Graphics.Light.TileLightScanner::GetTileLight(int, int, out Vector3) added by StarsAbove
+[01:05:51.980] [Main Thread/DEBUG] [tML]: Hook Terraria.Graphics.Light.TileLightScanner::GetTileLight(int, int, out Vector3) added by StarsAbove
+[01:05:52.080] [Main Thread/WARN] [tML]: StarsAbove.Systems.Items.ItemMemorySystem has reference fields (EquippedMemories, legendaryShieldMemories, StarsAboveGlobalItem) that may not be safe to share between clones.
 For deep-cloning, add a custom Clone override and make proper copies of these fields. If shallow (memberwise) cloning is acceptable, mark the fields with [CloneByReference] or properties with [field: CloneByReference]
-[00:44:22.721] [Main Thread/DEBUG] [tML]: ILHook Terraria.ModLoader.UI.UIModItem::OnInitialize() added by StarsAbove
-[00:44:22.745] [Main Thread/INFO] [StarsAbove]: 'I've always wanted to write text in crash logs!' -A
-[00:44:22.745] [Main Thread/INFO] [StarsAbove]: 'Eh? Doesn't that make you look like you caused it..?' -E
-[00:44:22.757] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::DrawBG() added by StarsAbove
-[00:44:22.797] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::DrawCapture(Rectangle, CaptureSettings) added by StarsAbove
-[00:44:22.806] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.Skies.AmbientSky+HellBatsGoupSkyEntity::.ctor(Player, FastRandom) added by StarsAbove
-[00:44:22.878] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateBiomes() added by StarsAbove
-[00:44:22.890] [Main Thread/DEBUG] [tML]: Hook Terraria.Graphics.Light.TileLightScanner::ApplyHellLight(Tile, int, int, ref Vector3) added by StarsAbove
-[00:44:22.894] [Main Thread/INFO] [tML]: Adding Content: StartingBags (Starter Bags) v0.1.4.4
-[00:44:22.909] [Main Thread/INFO] [tML]: Adding Content: StartWithBase (Start with base) v0.4.0.0
-[00:44:22.912] [Main Thread/INFO] [tML]: Adding Content: WheresMyItems (Where's My Items) v0.8
-[00:44:22.916] [Main Thread/INFO] [tML]: Adding Content: WingSlotExtra (Wing Slot Extra) v1.4.5
-[00:44:37.724] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[00:44:37.725] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> ShardsOfAtheria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[00:44:37.734] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> ShardsOfAtheria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[00:44:37.738] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[00:44:37.738] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[00:44:37.739] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[00:44:37.739] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[00:44:37.738] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[00:44:37.740] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[00:44:37.740] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[00:44:37.740] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[00:44:37.741] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[00:44:37.741] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[00:44:54.183] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: ShorterRespawn, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> CheatSheet, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-[00:44:56.972] [.NET TP Worker/INFO] [tML]: JITModsAsync completed in 55937ms
-[00:44:56.973] [Main Thread/INFO] [tML]: Resizing...
-[00:44:57.287] [Main Thread/INFO] [tML]: Configuring Content: ModLoader (tModLoader) v2025.5.3.0
-[00:44:57.303] [Main Thread/INFO] [tML]: Configuring Content: AbilityToRead (readAbility) v0.1
-[00:44:57.303] [Main Thread/INFO] [tML]: Configuring Content: CalamityModMusic (Calamity Mod Music) v2.0.5
-[00:44:57.306] [Main Thread/INFO] [tML]: Configuring Content: CalamityMod (Calamity Mod) v2.0.5
-[00:44:57.346] [Main Thread/DEBUG] [tML]: Hook Terraria.Recipe::ConsumeForCraft(Item, Item, ref int) added by CalamityMod
-[00:44:57.590] [Main Thread/INFO] [tML]: Configuring Content: Census (Census - Town NPC Checklist) v0.5.2.7
-[00:44:57.590] [Main Thread/INFO] [tML]: Configuring Content: AlchemistNPCLite (AlchemistNPC Lite) v1.9.8
-[00:44:57.593] [Main Thread/INFO] [tML]: Configuring Content: AutoReroll (Auto Reforge) v2024.8.31
-[00:44:57.593] [Main Thread/INFO] [tML]: Configuring Content: AutoTrash (Auto Trash) v0.7.2
-[00:44:57.593] [Main Thread/INFO] [tML]: Configuring Content: BetterBossBarPlus (Better Boss Health Bar for 1.4.4+) v0.9.2.4
-[00:44:57.593] [Main Thread/INFO] [tML]: Configuring Content: BossChecklist (Boss Checklist) v2.2.3.1
-[00:44:57.593] [Main Thread/INFO] [tML]: Configuring Content: DisableCorruptionSpread (Begone, Evil! (Disable Evil Biome Spread)) v1.3.0.2
-[00:44:57.593] [Main Thread/INFO] [tML]: Configuring Content: FargoSeeds (Fargo's Best of Both Worlds) v0.5.3
-[00:44:57.593] [Main Thread/INFO] [tML]: Configuring Content: Fargowiltas (Fargo's Mutant Mod) v3.3.6.2
-[00:44:57.599] [Main Thread/INFO] [tML]: Configuring Content: Luminance (Luminance) v1.0.12
-[00:44:57.599] [Main Thread/INFO] [tML]: Configuring Content: FargowiltasSouls (Fargo's Souls Mod) v1.7.2.14
-[00:44:57.685] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by FargowiltasSouls
-[00:44:57.767] [Main Thread/INFO] [tML]: Configuring Content: FargowiltasCrossmod (Calamity - Fargo's Souls DLC) v1.2.0.14
-[00:44:57.770] [Main Thread/DEBUG] [tML]: ILHook CalamityMod.NPCs.ExoMechs.Apollo.Apollo::HitEffect(HitInfo) added by FargowiltasCrossmod
-[00:44:57.774] [Main Thread/DEBUG] [tML]: ILHook CalamityMod.UI.BossHealthBarManager::AttemptToAddBar(int) added by FargowiltasCrossmod
-[00:44:57.776] [Main Thread/DEBUG] [tML]: ILHook CalamityMod.NPCs.ExoMechs.Artemis.Artemis::HitEffect(HitInfo) added by FargowiltasCrossmod
-[00:44:57.791] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawNPCs(bool) added by FargowiltasCrossmod
-[00:44:57.794] [Main Thread/INFO] [tML]: Configuring Content: HEROsMod (HERO's Mod) v0.4.17.1
-[00:44:57.794] [Main Thread/INFO] [tML]: Configuring Content: SerousCommonLib (absoluteAquarian Utilities (SerousCommonLib)) v1.0.6.1
-[00:44:57.794] [Main Thread/INFO] [tML]: Configuring Content: MagicStorage (Magic Storage) v0.7.0.8
-[00:44:57.803] [Main Thread/INFO] [tML]: Configuring Content: miningcracks_take_on_luiafk (LuiAFK Reborn) v1.2.5
-[00:44:57.817] [Main Thread/INFO] [tML]: Configuring Content: MoreAccessories (More Accessory Slots (More Accessories)) v1.4.2
-[00:44:57.819] [Main Thread/INFO] [tML]: Configuring Content: NoFishingQuests (Angler Shop) v3.2.0.5
-[00:44:57.819] [Main Thread/INFO] [tML]: Configuring Content: NoPylonRestrictions (No Pylon Restrictions) v0.1.3.7
-[00:44:57.820] [Main Thread/INFO] [tML]: Configuring Content: OreExcavator (Ore Excavator (1.4.3/1.4.4 Veinminer)) v0.8.9
-[00:44:57.821] [Main Thread/INFO] [tML]: Configuring Content: RecipeBrowser (Recipe Browser) v0.10.11.1
-[00:44:57.822] [Main Thread/INFO] [tML]: Configuring Content: ShorterRespawn (Shorter Respawn Time) v1.2
-[00:44:57.823] [Main Thread/INFO] [tML]: Configuring Content: SubworldLibrary (Subworld Library) v2.2.3.1
-[00:44:57.824] [Main Thread/INFO] [tML]: Configuring Content: StarsAbove (The Stars Above) v2.1.7.1
-[00:44:57.878] [Main Thread/INFO] [tML]: Configuring Content: StartingBags (Starter Bags) v0.1.4.4
-[00:44:57.878] [Main Thread/INFO] [tML]: Configuring Content: StartWithBase (Start with base) v0.4.0.0
-[00:44:57.878] [Main Thread/INFO] [tML]: Configuring Content: WheresMyItems (Where's My Items) v0.8
-[00:44:57.878] [Main Thread/INFO] [tML]: Configuring Content: WingSlotExtra (Wing Slot Extra) v1.4.5
-[00:44:58.615] [Main Thread/INFO] [tML]: Finalizing Content: ModLoader (tModLoader) v2025.5.3.0
-[00:44:58.617] [Main Thread/INFO] [tML]: Finalizing Content: AbilityToRead (readAbility) v0.1
-[00:44:58.619] [Main Thread/INFO] [tML]: Finalizing Content: CalamityModMusic (Calamity Mod Music) v2.0.5
-[00:44:58.620] [Main Thread/INFO] [tML]: Finalizing Content: CalamityMod (Calamity Mod) v2.0.5
-[00:44:58.644] [Main Thread/INFO] [tML]: Finalizing Content: Census (Census - Town NPC Checklist) v0.5.2.7
-[00:44:58.644] [Main Thread/INFO] [tML]: Finalizing Content: AlchemistNPCLite (AlchemistNPC Lite) v1.9.8
-[00:44:58.644] [Main Thread/INFO] [tML]: Finalizing Content: AutoReroll (Auto Reforge) v2024.8.31
-[00:44:58.645] [Main Thread/INFO] [tML]: Finalizing Content: AutoTrash (Auto Trash) v0.7.2
-[00:44:58.645] [Main Thread/INFO] [tML]: Finalizing Content: BetterBossBarPlus (Better Boss Health Bar for 1.4.4+) v0.9.2.4
-[00:44:58.645] [Main Thread/INFO] [tML]: Finalizing Content: BossChecklist (Boss Checklist) v2.2.3.1
-[00:44:58.645] [Main Thread/INFO] [tML]: Finalizing Content: DisableCorruptionSpread (Begone, Evil! (Disable Evil Biome Spread)) v1.3.0.2
-[00:44:58.645] [Main Thread/INFO] [tML]: Finalizing Content: FargoSeeds (Fargo's Best of Both Worlds) v0.5.3
-[00:44:58.646] [Main Thread/INFO] [tML]: Finalizing Content: Fargowiltas (Fargo's Mutant Mod) v3.3.6.2
-[00:44:58.646] [Main Thread/INFO] [tML]: Finalizing Content: Luminance (Luminance) v1.0.12
-[00:44:58.661] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.UI.Elements.UICharacterListItem::DrawSelf(SpriteBatch) added by Luminance
-[00:44:58.663] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.UI.States.UICharacterSelect::Draw(SpriteBatch) added by Luminance
-[00:44:58.668] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.UI.Elements.UIWorldListItem::DrawSelf(SpriteBatch) added by Luminance
-[00:44:58.670] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.UI.States.UIWorldSelect::Draw(SpriteBatch) added by Luminance
-[00:44:58.672] [Main Thread/DEBUG] [tML]: Hook Terraria.ModLoader.NPCLoader::SetDefaults(NPC, bool) added by Luminance
-[00:44:58.674] [Main Thread/DEBUG] [tML]: Hook Terraria.ModLoader.CombinedHooks::ModifyHitNPCWithProj(Projectile, NPC, ref HitModifiers) added by FargowiltasSouls
-[00:44:58.694] [Main Thread/DEBUG] [tML]: Hook CalamityMod.NPCs.CalamityGlobalNPC::PreAI(NPC) added by FargowiltasCrossmod
-[00:44:58.698] [Main Thread/DEBUG] [tML]: Hook CalamityMod.NPCs.CalamityGlobalNPC::AI(NPC) added by FargowiltasCrossmod
-[00:44:58.702] [Main Thread/DEBUG] [tML]: Hook CalamityMod.NPCs.CalamityGlobalNPC::OtherStatChanges(NPC) added by FargowiltasCrossmod
-[00:44:58.720] [Main Thread/DEBUG] [tML]: Hook CalamityMod.NPCs.CalamityGlobalNPC::PreDraw(NPC, SpriteBatch, Vector2, Color) added by FargowiltasCrossmod
-[00:44:58.738] [Main Thread/DEBUG] [tML]: Hook CalamityMod.NPCs.CalamityGlobalNPC::PostDraw(NPC, SpriteBatch, Vector2, Color) added by FargowiltasCrossmod
-[00:44:58.739] [Main Thread/DEBUG] [tML]: Hook CalamityMod.NPCs.CalamityGlobalNPC::BossHeadSlot(NPC, ref int) added by FargowiltasCrossmod
-[00:44:58.741] [Main Thread/DEBUG] [tML]: Hook CalamityMod.NPCStats::GetNPCDamage(NPC) added by FargowiltasCrossmod
-[00:44:58.755] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Bosses.Champions.Nature.NatureChampion::AI() added by FargowiltasCrossmod
-[00:44:58.785] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Bosses.Champions.Terra.TerraChampion::AI() added by FargowiltasCrossmod
-[00:44:58.787] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Bosses.VanillaEternity.Golem::CheckTempleWalls(Vector2) added by FargowiltasCrossmod
-[00:44:58.803] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Bosses.VanillaEternity.DukeFishron::SafePreAI(NPC) added by FargowiltasCrossmod
-[00:44:58.805] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Bosses.VanillaEternity.MoonLord::IsProjectileValid(NPC, Projectile) added by FargowiltasCrossmod
-[00:44:58.808] [Main Thread/DEBUG] [tML]: Hook CalamityMod.NPCs.Perforator.PerforatorHeadMedium::OnKill() added by FargowiltasCrossmod
-[00:44:58.810] [Main Thread/DEBUG] [tML]: Hook CalamityMod.NPCs.Perforator.PerforatorBodyMedium::OnKill() added by FargowiltasCrossmod
-[00:44:58.813] [Main Thread/DEBUG] [tML]: Hook CalamityMod.NPCs.Perforator.PerforatorTailMedium::OnKill() added by FargowiltasCrossmod
-[00:44:58.820] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Core.Globals.EModeGlobalNPC::EditSpawnPool(IDictionary`2, NPCSpawnInfo) added by FargowiltasCrossmod
-[00:44:58.882] [Main Thread/DEBUG] [tML]: Hook CalamityMod.Projectiles.CalamityGlobalProjectile::PreAI(Projectile) added by FargowiltasCrossmod
-[00:44:58.886] [Main Thread/DEBUG] [tML]: Hook CalamityMod.Projectiles.CalamityGlobalProjectile::CanDamage(Projectile) added by FargowiltasCrossmod
-[00:44:58.892] [Main Thread/DEBUG] [tML]: Hook CalamityMod.Projectiles.Boss.BrimstoneMonster::CanHitPlayer(Player) added by FargowiltasCrossmod
-[00:44:58.919] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Projectiles.FargoSoulsGlobalProjectile::OnSpawn(Projectile, IEntitySource) added by FargowiltasCrossmod
-[00:44:58.920] [Main Thread/DEBUG] [tML]: Hook Fargowiltas.NPCs.Squirrel::IsFargoSoulsItem(Item) added by FargowiltasCrossmod
-[00:44:58.924] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Core.Toggler.ToggleBackend::MinimalEffects() added by FargowiltasCrossmod
-[00:44:58.926] [Main Thread/DEBUG] [tML]: Hook CalamityMod.Systems.BossRushDialogueSystem::Tick() added by FargowiltasCrossmod
-[00:44:58.927] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Items.Masochist::CanToggleEternity() added by FargowiltasCrossmod
-[00:44:58.930] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.UI.SoulTogglerButton::OnActivate() added by FargowiltasCrossmod
-[00:44:58.933] [Main Thread/DEBUG] [tML]: Hook CalamityMod.Skies.BossRushSky::DetermineDrawEligibility() added by FargowiltasCrossmod
-[00:44:58.935] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Common.Utilities.EModeUtils::DropSummon(NPC, int, bool, ref bool, bool) added by FargowiltasCrossmod
-[00:44:58.938] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Common.Utilities.EModeUtils::DropSummon(NPC, string, bool, ref bool, bool) added by FargowiltasCrossmod
-[00:44:58.941] [Main Thread/DEBUG] [tML]: Hook CalamityMod.CalamityUtils::GetBestClassDamage(Player) added by FargowiltasCrossmod
-[00:44:58.944] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.FargoSoulsUtil::HighestDamageTypeScaling(Player, int) added by FargowiltasCrossmod
-[00:44:58.945] [Main Thread/DEBUG] [tML]: Hook CalamityMod.BiomeManagers.AstralInfectionBiome::IsBiomeActive(Player) added by FargowiltasCrossmod
-[00:44:58.946] [Main Thread/DEBUG] [tML]: Hook CalamityMod.BiomeManagers.BrimstoneCragsBiome::IsBiomeActive(Player) added by FargowiltasCrossmod
-[00:44:58.948] [Main Thread/DEBUG] [tML]: Hook CalamityMod.BiomeManagers.SulphurousSeaBiome::IsBiomeActive(Player) added by FargowiltasCrossmod
-[00:44:58.950] [Main Thread/DEBUG] [tML]: Hook CalamityMod.BiomeManagers.SunkenSeaBiome::IsBiomeActive(Player) added by FargowiltasCrossmod
-[00:44:58.952] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Items.Accessories.Enchantments.TungstenEffect::TungstenIncreaseWeaponSize(FargoSoulsPlayer) added by FargowiltasCrossmod
-[00:44:58.953] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Items.Accessories.Enchantments.TungstenEffect::TungstenNeverAffectsProj(Projectile) added by FargowiltasCrossmod
-[00:44:58.960] [Main Thread/DEBUG] [tML]: Hook CalamityMod.Items.TreasureBags.MiscGrabBags.StarterBag::ModifyItemLoot(ItemLoot) added by FargowiltasCrossmod
-[00:44:58.963] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.FargowiltasSouls::DropDevianttsGift(Player) added by FargowiltasCrossmod
-[00:44:58.965] [Main Thread/DEBUG] [tML]: Hook Fargowiltas.Projectiles.Explosives.AutoHouseProj::GetTiles(Player, out int, out int, out int, out bool) added by FargowiltasCrossmod
-[00:44:58.966] [Main Thread/DEBUG] [tML]: Hook Fargowiltas.Projectiles.Explosives.AutoHouseProj::GetFurniture(Player, out int, out int, out int, out int) added by FargowiltasCrossmod
-[00:44:58.968] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Items.Accessories.Souls.FlightMasteryWings::VerticalWingSpeeds(Player, ref float, ref float, ref float, ref float, ref float) added by FargowiltasCrossmod
-[00:44:58.969] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Items.Accessories.Souls.FlightMasteryWings::HorizontalWingSpeeds(Player, ref float, ref float) added by FargowiltasCrossmod
-[00:44:58.970] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Items.Accessories.Forces.LifeForce::VerticalWingSpeeds(Player, ref float, ref float, ref float, ref float, ref float) added by FargowiltasCrossmod
-[00:44:58.972] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Items.Accessories.Forces.LifeForce::HorizontalWingSpeeds(Player, ref float, ref float) added by FargowiltasCrossmod
-[00:44:58.976] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Items.EmodeItemBalance::EmodeBalancePerID(int, ref float, ref String[], ref string) added by FargowiltasCrossmod
-[00:44:58.978] [Main Thread/DEBUG] [tML]: Hook Fargowiltas.Items.FargoGlobalItem::TryUnlimBuff(Item, Player) added by FargowiltasCrossmod
-[00:44:58.982] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Items.Accessories.Enchantments.ApprenticeSupport::PostUpdateEquips(Player) added by FargowiltasCrossmod
-[00:44:58.990] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Core.ModPlayers.FargoSoulsPlayer::PreKill(double, int, bool, ref bool, ref bool, ref PlayerDeathReason) added by FargowiltasCrossmod
-[00:44:58.994] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Core.ModPlayers.EModePlayer::PreUpdate() added by FargowiltasCrossmod
-[00:44:59.015] [Main Thread/DEBUG] [tML]: Hook CalamityMod.CalPlayer.CalamityPlayer::CatchFish(FishingAttempt, ref int, ref int, ref AdvancedPopupRequest, ref Vector2) added by FargowiltasCrossmod
-[00:44:59.030] [Main Thread/DEBUG] [tML]: Hook CalamityMod.CalPlayer.CalamityPlayer::ModifyHurtInfo_Calamity(ref HurtInfo) added by FargowiltasCrossmod
-[00:44:59.034] [Main Thread/DEBUG] [tML]: Hook CalamityMod.CalamityUtils::GetAdrenalineDamage(CalamityPlayer) added by FargowiltasCrossmod
-[00:44:59.040] [Main Thread/INFO] [tML]: Finalizing Content: FargowiltasSouls (Fargo's Souls Mod) v1.7.2.14
-[00:44:59.048] [Main Thread/INFO] [tML]: Finalizing Content: FargowiltasCrossmod (Calamity - Fargo's Souls DLC) v1.2.0.14
-[00:44:59.589] [Main Thread/WARN] [CalamityMod]: This mod call is deprecated. Calamity automatically registers cooldowns.
-[00:44:59.597] [Main Thread/INFO] [tML]: Finalizing Content: HEROsMod (HERO's Mod) v0.4.17.1
-[00:44:59.610] [Main Thread/INFO] [tML]: Finalizing Content: SerousCommonLib (absoluteAquarian Utilities (SerousCommonLib)) v1.0.6.1
-[00:44:59.610] [Main Thread/INFO] [tML]: Finalizing Content: MagicStorage (Magic Storage) v0.7.0.8
-[00:44:59.655] [Main Thread/INFO] [tML]: Finalizing Content: miningcracks_take_on_luiafk (LuiAFK Reborn) v1.2.5
-[00:44:59.662] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+[01:05:52.251] [Main Thread/DEBUG] [tML]: ILHook Terraria.ModLoader.UI.UIModItem::OnInitialize() added by StarsAbove
+[01:05:52.274] [Main Thread/INFO] [StarsAbove]: 'I've always wanted to write text in crash logs!' -A
+[01:05:52.274] [Main Thread/INFO] [StarsAbove]: 'Eh? Doesn't that make you look like you caused it..?' -E
+[01:05:52.285] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::DrawBG() added by StarsAbove
+[01:05:52.349] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::DrawCapture(Rectangle, CaptureSettings) added by StarsAbove
+[01:05:52.366] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.Skies.AmbientSky+HellBatsGoupSkyEntity::.ctor(Player, FastRandom) added by StarsAbove
+[01:05:52.673] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::UpdateBiomes() added by StarsAbove
+[01:05:52.686] [Main Thread/DEBUG] [tML]: Hook Terraria.Graphics.Light.TileLightScanner::ApplyHellLight(Tile, int, int, ref Vector3) added by StarsAbove
+[01:05:52.688] [Main Thread/INFO] [tML]: Adding Content: StartingBags (Starter Bags) v0.1.4.4
+[01:05:52.731] [Main Thread/INFO] [tML]: Adding Content: StartWithBase (Start with base) v0.4.0.0
+[01:05:52.732] [Main Thread/INFO] [tML]: Adding Content: WheresMyItems (Where's My Items) v0.8
+[01:05:52.736] [Main Thread/INFO] [tML]: Adding Content: WingSlotExtra (Wing Slot Extra) v1.4.5
+[01:06:22.159] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> ShardsOfAtheria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[01:06:22.160] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[01:06:22.180] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> ShardsOfAtheria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[01:06:22.185] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[01:06:22.185] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[01:06:22.186] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[01:06:22.187] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[01:06:22.187] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[01:06:22.186] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[01:06:22.186] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[01:06:22.188] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[01:06:22.188] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[01:06:22.189] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: AlchemistNPCLite, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> Redemption, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[01:06:51.389] [.NET TP Worker/DEBUG] [tML]: Assembly Resolve: ShorterRespawn, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> CheatSheet, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[01:06:55.603] [.NET TP Worker/INFO] [tML]: JITModsAsync completed in 97341ms
+[01:06:55.615] [Main Thread/INFO] [tML]: Resizing...
+[01:06:56.194] [Main Thread/INFO] [tML]: Configuring Content: ModLoader (tModLoader) v2025.5.3.0
+[01:06:56.217] [Main Thread/INFO] [tML]: Configuring Content: AbilityToRead (readAbility) v0.1
+[01:06:56.219] [Main Thread/INFO] [tML]: Configuring Content: CalamityModMusic (Calamity Mod Music) v2.0.5
+[01:06:56.232] [Main Thread/INFO] [tML]: Configuring Content: CalamityMod (Calamity Mod) v2.0.5
+[01:06:56.331] [Main Thread/DEBUG] [tML]: Hook Terraria.Recipe::ConsumeForCraft(Item, Item, ref int) added by CalamityMod
+[01:06:57.046] [Main Thread/INFO] [tML]: Configuring Content: Census (Census - Town NPC Checklist) v0.5.2.7
+[01:06:57.050] [Main Thread/INFO] [tML]: Configuring Content: AlchemistNPCLite (AlchemistNPC Lite) v1.9.8
+[01:06:57.060] [Main Thread/INFO] [tML]: Configuring Content: AutoReroll (Auto Reforge) v2024.8.31
+[01:06:57.061] [Main Thread/INFO] [tML]: Configuring Content: AutoTrash (Auto Trash) v0.7.2
+[01:06:57.061] [Main Thread/INFO] [tML]: Configuring Content: BetterBossBarPlus (Better Boss Health Bar for 1.4.4+) v0.9.2.4
+[01:06:57.062] [Main Thread/INFO] [tML]: Configuring Content: BossChecklist (Boss Checklist) v2.2.3.1
+[01:06:57.063] [Main Thread/INFO] [tML]: Configuring Content: DisableCorruptionSpread (Begone, Evil! (Disable Evil Biome Spread)) v1.3.0.2
+[01:06:57.065] [Main Thread/INFO] [tML]: Configuring Content: FargoSeeds (Fargo's Best of Both Worlds) v0.5.3
+[01:06:57.065] [Main Thread/INFO] [tML]: Configuring Content: Fargowiltas (Fargo's Mutant Mod) v3.3.6.2
+[01:06:57.080] [Main Thread/INFO] [tML]: Configuring Content: Luminance (Luminance) v1.0.12
+[01:06:57.081] [Main Thread/INFO] [tML]: Configuring Content: FargowiltasSouls (Fargo's Souls Mod) v1.7.2.14
+[01:06:57.259] [Main Thread/DEBUG] [tML]: ILHook Terraria.Player::Update(int) added by FargowiltasSouls
+[01:06:57.484] [Main Thread/INFO] [tML]: Configuring Content: FargowiltasCrossmod (Calamity - Fargo's Souls DLC) v1.2.0.14
+[01:06:57.498] [Main Thread/DEBUG] [tML]: ILHook CalamityMod.NPCs.ExoMechs.Apollo.Apollo::HitEffect(HitInfo) added by FargowiltasCrossmod
+[01:06:57.511] [Main Thread/DEBUG] [tML]: ILHook CalamityMod.UI.BossHealthBarManager::AttemptToAddBar(int) added by FargowiltasCrossmod
+[01:06:57.514] [Main Thread/DEBUG] [tML]: ILHook CalamityMod.NPCs.ExoMechs.Artemis.Artemis::HitEffect(HitInfo) added by FargowiltasCrossmod
+[01:06:57.542] [Main Thread/DEBUG] [tML]: Hook Terraria.Main::DrawNPCs(bool) added by FargowiltasCrossmod
+[01:06:57.549] [Main Thread/INFO] [tML]: Configuring Content: HEROsMod (HERO's Mod) v0.4.17.1
+[01:06:57.549] [Main Thread/INFO] [tML]: Configuring Content: SerousCommonLib (absoluteAquarian Utilities (SerousCommonLib)) v1.0.6.1
+[01:06:57.550] [Main Thread/INFO] [tML]: Configuring Content: MagicStorage (Magic Storage) v0.7.0.8
+[01:06:57.566] [Main Thread/INFO] [tML]: Configuring Content: miningcracks_take_on_luiafk (LuiAFK Reborn) v1.2.5
+[01:06:57.589] [Main Thread/INFO] [tML]: Configuring Content: MoreAccessories (More Accessory Slots (More Accessories)) v1.4.2
+[01:06:57.590] [Main Thread/INFO] [tML]: Configuring Content: NoFishingQuests (Angler Shop) v3.2.0.5
+[01:06:57.590] [Main Thread/INFO] [tML]: Configuring Content: NoPylonRestrictions (No Pylon Restrictions) v0.1.3.7
+[01:06:57.590] [Main Thread/INFO] [tML]: Configuring Content: OneStopNPCShop (The Shop Market) v1.2.3.2
+[01:06:57.591] [Main Thread/INFO] [tML]: Configuring Content: OreExcavator (Ore Excavator (1.4.3/1.4.4 Veinminer)) v0.8.9
+[01:06:57.591] [Main Thread/INFO] [tML]: Configuring Content: RecipeBrowser (Recipe Browser) v0.10.11.1
+[01:06:57.591] [Main Thread/INFO] [tML]: Configuring Content: ShorterRespawn (Shorter Respawn Time) v1.2
+[01:06:57.591] [Main Thread/INFO] [tML]: Configuring Content: SubworldLibrary (Subworld Library) v2.2.3.1
+[01:06:57.591] [Main Thread/INFO] [tML]: Configuring Content: StarsAbove (The Stars Above) v2.1.7.1
+[01:06:57.663] [Main Thread/INFO] [tML]: Configuring Content: StartingBags (Starter Bags) v0.1.4.4
+[01:06:57.663] [Main Thread/INFO] [tML]: Configuring Content: StartWithBase (Start with base) v0.4.0.0
+[01:06:57.664] [Main Thread/INFO] [tML]: Configuring Content: WheresMyItems (Where's My Items) v0.8
+[01:06:57.664] [Main Thread/INFO] [tML]: Configuring Content: WingSlotExtra (Wing Slot Extra) v1.4.5
+[01:06:59.076] [Main Thread/INFO] [tML]: Finalizing Content: ModLoader (tModLoader) v2025.5.3.0
+[01:06:59.081] [Main Thread/INFO] [tML]: Finalizing Content: AbilityToRead (readAbility) v0.1
+[01:06:59.081] [Main Thread/INFO] [tML]: Finalizing Content: CalamityModMusic (Calamity Mod Music) v2.0.5
+[01:06:59.082] [Main Thread/INFO] [tML]: Finalizing Content: CalamityMod (Calamity Mod) v2.0.5
+[01:06:59.171] [Main Thread/INFO] [tML]: Finalizing Content: Census (Census - Town NPC Checklist) v0.5.2.7
+[01:06:59.174] [Main Thread/INFO] [tML]: Finalizing Content: AlchemistNPCLite (AlchemistNPC Lite) v1.9.8
+[01:06:59.175] [Main Thread/INFO] [tML]: Finalizing Content: AutoReroll (Auto Reforge) v2024.8.31
+[01:06:59.177] [Main Thread/INFO] [tML]: Finalizing Content: AutoTrash (Auto Trash) v0.7.2
+[01:06:59.177] [Main Thread/INFO] [tML]: Finalizing Content: BetterBossBarPlus (Better Boss Health Bar for 1.4.4+) v0.9.2.4
+[01:06:59.177] [Main Thread/INFO] [tML]: Finalizing Content: BossChecklist (Boss Checklist) v2.2.3.1
+[01:06:59.178] [Main Thread/INFO] [tML]: Finalizing Content: DisableCorruptionSpread (Begone, Evil! (Disable Evil Biome Spread)) v1.3.0.2
+[01:06:59.178] [Main Thread/INFO] [tML]: Finalizing Content: FargoSeeds (Fargo's Best of Both Worlds) v0.5.3
+[01:06:59.179] [Main Thread/INFO] [tML]: Finalizing Content: Fargowiltas (Fargo's Mutant Mod) v3.3.6.2
+[01:06:59.181] [Main Thread/INFO] [tML]: Finalizing Content: Luminance (Luminance) v1.0.12
+[01:06:59.278] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.UI.Elements.UICharacterListItem::DrawSelf(SpriteBatch) added by Luminance
+[01:06:59.287] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.UI.States.UICharacterSelect::Draw(SpriteBatch) added by Luminance
+[01:06:59.320] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.UI.Elements.UIWorldListItem::DrawSelf(SpriteBatch) added by Luminance
+[01:06:59.338] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.UI.States.UIWorldSelect::Draw(SpriteBatch) added by Luminance
+[01:06:59.347] [Main Thread/DEBUG] [tML]: Hook Terraria.ModLoader.NPCLoader::SetDefaults(NPC, bool) added by Luminance
+[01:06:59.358] [Main Thread/DEBUG] [tML]: Hook Terraria.ModLoader.CombinedHooks::ModifyHitNPCWithProj(Projectile, NPC, ref HitModifiers) added by FargowiltasSouls
+[01:06:59.443] [Main Thread/DEBUG] [tML]: Hook CalamityMod.NPCs.CalamityGlobalNPC::PreAI(NPC) added by FargowiltasCrossmod
+[01:06:59.458] [Main Thread/DEBUG] [tML]: Hook CalamityMod.NPCs.CalamityGlobalNPC::AI(NPC) added by FargowiltasCrossmod
+[01:06:59.468] [Main Thread/DEBUG] [tML]: Hook CalamityMod.NPCs.CalamityGlobalNPC::OtherStatChanges(NPC) added by FargowiltasCrossmod
+[01:06:59.530] [Main Thread/DEBUG] [tML]: Hook CalamityMod.NPCs.CalamityGlobalNPC::PreDraw(NPC, SpriteBatch, Vector2, Color) added by FargowiltasCrossmod
+[01:06:59.619] [Main Thread/DEBUG] [tML]: Hook CalamityMod.NPCs.CalamityGlobalNPC::PostDraw(NPC, SpriteBatch, Vector2, Color) added by FargowiltasCrossmod
+[01:06:59.621] [Main Thread/DEBUG] [tML]: Hook CalamityMod.NPCs.CalamityGlobalNPC::BossHeadSlot(NPC, ref int) added by FargowiltasCrossmod
+[01:06:59.623] [Main Thread/DEBUG] [tML]: Hook CalamityMod.NPCStats::GetNPCDamage(NPC) added by FargowiltasCrossmod
+[01:06:59.660] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Bosses.Champions.Nature.NatureChampion::AI() added by FargowiltasCrossmod
+[01:06:59.714] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Bosses.Champions.Terra.TerraChampion::AI() added by FargowiltasCrossmod
+[01:06:59.719] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Bosses.VanillaEternity.Golem::CheckTempleWalls(Vector2) added by FargowiltasCrossmod
+[01:06:59.790] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Bosses.VanillaEternity.DukeFishron::SafePreAI(NPC) added by FargowiltasCrossmod
+[01:06:59.799] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Bosses.VanillaEternity.MoonLord::IsProjectileValid(NPC, Projectile) added by FargowiltasCrossmod
+[01:06:59.806] [Main Thread/DEBUG] [tML]: Hook CalamityMod.NPCs.Perforator.PerforatorHeadMedium::OnKill() added by FargowiltasCrossmod
+[01:06:59.819] [Main Thread/DEBUG] [tML]: Hook CalamityMod.NPCs.Perforator.PerforatorBodyMedium::OnKill() added by FargowiltasCrossmod
+[01:06:59.828] [Main Thread/DEBUG] [tML]: Hook CalamityMod.NPCs.Perforator.PerforatorTailMedium::OnKill() added by FargowiltasCrossmod
+[01:06:59.860] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Core.Globals.EModeGlobalNPC::EditSpawnPool(IDictionary`2, NPCSpawnInfo) added by FargowiltasCrossmod
+[01:07:00.149] [Main Thread/DEBUG] [tML]: Hook CalamityMod.Projectiles.CalamityGlobalProjectile::PreAI(Projectile) added by FargowiltasCrossmod
+[01:07:00.160] [Main Thread/DEBUG] [tML]: Hook CalamityMod.Projectiles.CalamityGlobalProjectile::CanDamage(Projectile) added by FargowiltasCrossmod
+[01:07:00.179] [Main Thread/DEBUG] [tML]: Hook CalamityMod.Projectiles.Boss.BrimstoneMonster::CanHitPlayer(Player) added by FargowiltasCrossmod
+[01:07:00.228] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Projectiles.FargoSoulsGlobalProjectile::OnSpawn(Projectile, IEntitySource) added by FargowiltasCrossmod
+[01:07:00.234] [Main Thread/DEBUG] [tML]: Hook Fargowiltas.NPCs.Squirrel::IsFargoSoulsItem(Item) added by FargowiltasCrossmod
+[01:07:00.246] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Core.Toggler.ToggleBackend::MinimalEffects() added by FargowiltasCrossmod
+[01:07:00.250] [Main Thread/DEBUG] [tML]: Hook CalamityMod.Systems.BossRushDialogueSystem::Tick() added by FargowiltasCrossmod
+[01:07:00.252] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Items.Masochist::CanToggleEternity() added by FargowiltasCrossmod
+[01:07:00.260] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.UI.SoulTogglerButton::OnActivate() added by FargowiltasCrossmod
+[01:07:00.268] [Main Thread/DEBUG] [tML]: Hook CalamityMod.Skies.BossRushSky::DetermineDrawEligibility() added by FargowiltasCrossmod
+[01:07:00.273] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Common.Utilities.EModeUtils::DropSummon(NPC, int, bool, ref bool, bool) added by FargowiltasCrossmod
+[01:07:00.277] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Common.Utilities.EModeUtils::DropSummon(NPC, string, bool, ref bool, bool) added by FargowiltasCrossmod
+[01:07:00.284] [Main Thread/DEBUG] [tML]: Hook CalamityMod.CalamityUtils::GetBestClassDamage(Player) added by FargowiltasCrossmod
+[01:07:00.290] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.FargoSoulsUtil::HighestDamageTypeScaling(Player, int) added by FargowiltasCrossmod
+[01:07:00.293] [Main Thread/DEBUG] [tML]: Hook CalamityMod.BiomeManagers.AstralInfectionBiome::IsBiomeActive(Player) added by FargowiltasCrossmod
+[01:07:00.296] [Main Thread/DEBUG] [tML]: Hook CalamityMod.BiomeManagers.BrimstoneCragsBiome::IsBiomeActive(Player) added by FargowiltasCrossmod
+[01:07:00.366] [Main Thread/DEBUG] [tML]: Hook CalamityMod.BiomeManagers.SulphurousSeaBiome::IsBiomeActive(Player) added by FargowiltasCrossmod
+[01:07:00.370] [Main Thread/DEBUG] [tML]: Hook CalamityMod.BiomeManagers.SunkenSeaBiome::IsBiomeActive(Player) added by FargowiltasCrossmod
+[01:07:00.374] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Items.Accessories.Enchantments.TungstenEffect::TungstenIncreaseWeaponSize(FargoSoulsPlayer) added by FargowiltasCrossmod
+[01:07:00.378] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Items.Accessories.Enchantments.TungstenEffect::TungstenNeverAffectsProj(Projectile) added by FargowiltasCrossmod
+[01:07:00.419] [Main Thread/DEBUG] [tML]: Hook CalamityMod.Items.TreasureBags.MiscGrabBags.StarterBag::ModifyItemLoot(ItemLoot) added by FargowiltasCrossmod
+[01:07:00.425] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.FargowiltasSouls::DropDevianttsGift(Player) added by FargowiltasCrossmod
+[01:07:00.427] [Main Thread/DEBUG] [tML]: Hook Fargowiltas.Projectiles.Explosives.AutoHouseProj::GetTiles(Player, out int, out int, out int, out bool) added by FargowiltasCrossmod
+[01:07:00.429] [Main Thread/DEBUG] [tML]: Hook Fargowiltas.Projectiles.Explosives.AutoHouseProj::GetFurniture(Player, out int, out int, out int, out int) added by FargowiltasCrossmod
+[01:07:00.431] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Items.Accessories.Souls.FlightMasteryWings::VerticalWingSpeeds(Player, ref float, ref float, ref float, ref float, ref float) added by FargowiltasCrossmod
+[01:07:00.433] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Items.Accessories.Souls.FlightMasteryWings::HorizontalWingSpeeds(Player, ref float, ref float) added by FargowiltasCrossmod
+[01:07:00.435] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Items.Accessories.Forces.LifeForce::VerticalWingSpeeds(Player, ref float, ref float, ref float, ref float, ref float) added by FargowiltasCrossmod
+[01:07:00.436] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Items.Accessories.Forces.LifeForce::HorizontalWingSpeeds(Player, ref float, ref float) added by FargowiltasCrossmod
+[01:07:00.443] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Items.EmodeItemBalance::EmodeBalancePerID(int, ref float, ref String[], ref string) added by FargowiltasCrossmod
+[01:07:00.446] [Main Thread/DEBUG] [tML]: Hook Fargowiltas.Items.FargoGlobalItem::TryUnlimBuff(Item, Player) added by FargowiltasCrossmod
+[01:07:00.452] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Content.Items.Accessories.Enchantments.ApprenticeSupport::PostUpdateEquips(Player) added by FargowiltasCrossmod
+[01:07:00.464] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Core.ModPlayers.FargoSoulsPlayer::PreKill(double, int, bool, ref bool, ref bool, ref PlayerDeathReason) added by FargowiltasCrossmod
+[01:07:00.472] [Main Thread/DEBUG] [tML]: Hook FargowiltasSouls.Core.ModPlayers.EModePlayer::PreUpdate() added by FargowiltasCrossmod
+[01:07:00.505] [Main Thread/DEBUG] [tML]: Hook CalamityMod.CalPlayer.CalamityPlayer::CatchFish(FishingAttempt, ref int, ref int, ref AdvancedPopupRequest, ref Vector2) added by FargowiltasCrossmod
+[01:07:00.553] [Main Thread/DEBUG] [tML]: Hook CalamityMod.CalPlayer.CalamityPlayer::ModifyHurtInfo_Calamity(ref HurtInfo) added by FargowiltasCrossmod
+[01:07:00.556] [Main Thread/DEBUG] [tML]: Hook CalamityMod.CalamityUtils::GetAdrenalineDamage(CalamityPlayer) added by FargowiltasCrossmod
+[01:07:00.559] [Main Thread/INFO] [tML]: Finalizing Content: FargowiltasSouls (Fargo's Souls Mod) v1.7.2.14
+[01:07:00.564] [Main Thread/INFO] [tML]: Finalizing Content: FargowiltasCrossmod (Calamity - Fargo's Souls DLC) v1.2.0.14
+[01:07:02.329] [Main Thread/WARN] [CalamityMod]: This mod call is deprecated. Calamity automatically registers cooldowns.
+[01:07:02.341] [Main Thread/INFO] [tML]: Finalizing Content: HEROsMod (HERO's Mod) v0.4.17.1
+[01:07:02.356] [Main Thread/INFO] [tML]: Finalizing Content: SerousCommonLib (absoluteAquarian Utilities (SerousCommonLib)) v1.0.6.1
+[01:07:02.356] [Main Thread/INFO] [tML]: Finalizing Content: MagicStorage (Magic Storage) v0.7.0.8
+[01:07:02.427] [Main Thread/INFO] [tML]: Finalizing Content: miningcracks_take_on_luiafk (LuiAFK Reborn) v1.2.5
+[01:07:02.437] [Main Thread/WARN] [tML]: Silently Caught Exception: 
 System.Exception: Call Error: The 2nd parameter of TownNPCCondition is now LocalizedText and is optional. Also, localization is now automatic, keys will appear in your hjson files. This TownNPCCondition Mod.Call is only needed if using LocalizedText.WithFormatArgs
    at Census.CensusSystem.Call(Object[] args) in CensusSystem.cs:line 520
    at miningcracks_take_on_luiafk.LuiafkMod.PostSetupContent() in miningcracks_take_on_luiafk\LuiafkMod.cs:line 117
@@ -508,8 +509,8 @@ System.Exception: Call Error: The 2nd parameter of TownNPCCondition is now Local
    at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 65
    at Terraria.MonoLaunch.Main(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 72
 
-[00:44:59.662] [Main Thread/ERROR] [Census]: Census Call Error:    at Census.CensusSystem.Call(Object[] args) in CensusSystem.cs:line 520Call Error: The 2nd parameter of TownNPCCondition is now LocalizedText and is optional. Also, localization is now automatic, keys will appear in your hjson files. This TownNPCCondition Mod.Call is only needed if using LocalizedText.WithFormatArgs
-[00:44:59.663] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+[01:07:02.438] [Main Thread/ERROR] [Census]: Census Call Error:    at Census.CensusSystem.Call(Object[] args) in CensusSystem.cs:line 520Call Error: The 2nd parameter of TownNPCCondition is now LocalizedText and is optional. Also, localization is now automatic, keys will appear in your hjson files. This TownNPCCondition Mod.Call is only needed if using LocalizedText.WithFormatArgs
+[01:07:02.439] [Main Thread/WARN] [tML]: Silently Caught Exception: 
 System.Exception: Call Error: The 2nd parameter of TownNPCCondition is now LocalizedText and is optional. Also, localization is now automatic, keys will appear in your hjson files. This TownNPCCondition Mod.Call is only needed if using LocalizedText.WithFormatArgs
    at Census.CensusSystem.Call(Object[] args) in CensusSystem.cs:line 520
    at miningcracks_take_on_luiafk.LuiafkMod.PostSetupContent() in miningcracks_take_on_luiafk\LuiafkMod.cs:line 118
@@ -526,53 +527,105 @@ System.Exception: Call Error: The 2nd parameter of TownNPCCondition is now Local
    at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 65
    at Terraria.MonoLaunch.Main(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 72
 
-[00:44:59.663] [Main Thread/ERROR] [Census]: Census Call Error:    at Census.CensusSystem.Call(Object[] args) in CensusSystem.cs:line 520Call Error: The 2nd parameter of TownNPCCondition is now LocalizedText and is optional. Also, localization is now automatic, keys will appear in your hjson files. This TownNPCCondition Mod.Call is only needed if using LocalizedText.WithFormatArgs
-[00:44:59.663] [Main Thread/INFO] [tML]: Finalizing Content: MoreAccessories (More Accessory Slots (More Accessories)) v1.4.2
-[00:44:59.663] [Main Thread/INFO] [tML]: Finalizing Content: NoFishingQuests (Angler Shop) v3.2.0.5
-[00:44:59.664] [Main Thread/INFO] [tML]: Finalizing Content: NoPylonRestrictions (No Pylon Restrictions) v0.1.3.7
-[00:44:59.665] [Main Thread/INFO] [tML]: Finalizing Content: OreExcavator (Ore Excavator (1.4.3/1.4.4 Veinminer)) v0.8.9
-[00:44:59.665] [Main Thread/INFO] [OreExcavator]: Auto-whitelist runner started. Looking for modded ores and gems to whitelist...
-[00:44:59.665] [Main Thread/INFO] [OreExcavator]: Running through tML Ore Tile Set...
-[00:44:59.665] [Main Thread/INFO] [OreExcavator]: Ore Set Search completed.
-[00:44:59.665] [Main Thread/INFO] [OreExcavator]: Beginning manaual ore search...
-[00:44:59.666] [Main Thread/INFO] [OreExcavator]: Found CalamityMod - But we're already up-to-date with them! v(2.0.5) 
-[00:44:59.667] [Main Thread/INFO] [OreExcavator]: Found StarsAbove - But we're already up-to-date with them! v(2.1.7.1) 
-[00:44:59.668] [Main Thread/INFO] [OreExcavator]: Auto-whitelist runner concluded. Finishing up...
-[00:44:59.668] [Main Thread/INFO] [tML]: Finalizing Content: RecipeBrowser (Recipe Browser) v0.10.11.1
-[00:44:59.668] [Main Thread/INFO] [tML]: Finalizing Content: ShorterRespawn (Shorter Respawn Time) v1.2
-[00:44:59.668] [Main Thread/INFO] [tML]: Finalizing Content: SubworldLibrary (Subworld Library) v2.2.3.1
-[00:44:59.668] [Main Thread/INFO] [tML]: Finalizing Content: StarsAbove (The Stars Above) v2.1.7.1
-[00:44:59.669] [Main Thread/INFO] [tML]: Finalizing Content: StartingBags (Starter Bags) v0.1.4.4
-[00:44:59.669] [Main Thread/INFO] [tML]: Finalizing Content: StartWithBase (Start with base) v0.4.0.0
-[00:44:59.669] [Main Thread/INFO] [tML]: Finalizing Content: WheresMyItems (Where's My Items) v0.8
-[00:44:59.669] [Main Thread/INFO] [tML]: Finalizing Content: WingSlotExtra (Wing Slot Extra) v1.4.5
-[00:44:59.681] [Main Thread/INFO] [tML]: Mods using the most RAM: CalamityMod 230.0 MB, FargowiltasCrossmod 67.3 MB, StarsAbove 36.9 MB
-[00:44:59.692] [Main Thread/INFO] [tML]: RAM physical: tModLoader usage: 961.0 MB, All processes usage: 1.8 GB, Available: 5.9 GB, Total Installed: 7.8 GB
-[00:44:59.692] [Main Thread/INFO] [tML]: RAM virtual: tModLoader usage: 956.1 MB, All processes usage: 2.1 GB
-[00:44:59.877] [Main Thread/DEBUG] [tML]: GlobalItem registration stats. Count: 30, Slots per Entity: 9
+[01:07:02.439] [Main Thread/ERROR] [Census]: Census Call Error:    at Census.CensusSystem.Call(Object[] args) in CensusSystem.cs:line 520Call Error: The 2nd parameter of TownNPCCondition is now LocalizedText and is optional. Also, localization is now automatic, keys will appear in your hjson files. This TownNPCCondition Mod.Call is only needed if using LocalizedText.WithFormatArgs
+[01:07:02.439] [Main Thread/INFO] [tML]: Finalizing Content: MoreAccessories (More Accessory Slots (More Accessories)) v1.4.2
+[01:07:02.440] [Main Thread/INFO] [tML]: Finalizing Content: NoFishingQuests (Angler Shop) v3.2.0.5
+[01:07:02.441] [Main Thread/INFO] [tML]: Finalizing Content: NoPylonRestrictions (No Pylon Restrictions) v0.1.3.7
+[01:07:02.441] [Main Thread/INFO] [tML]: Finalizing Content: OneStopNPCShop (The Shop Market) v1.2.3.2
+[01:07:02.442] [Main Thread/INFO] [tML]: Finalizing Content: OreExcavator (Ore Excavator (1.4.3/1.4.4 Veinminer)) v0.8.9
+[01:07:02.442] [Main Thread/INFO] [OreExcavator]: Auto-whitelist runner started. Looking for modded ores and gems to whitelist...
+[01:07:02.442] [Main Thread/INFO] [OreExcavator]: Running through tML Ore Tile Set...
+[01:07:02.442] [Main Thread/INFO] [OreExcavator]: Found ore from Ore Set: 'CalamityMod:AerialiteOre', adding to whitelist.
+[01:07:02.442] [Main Thread/INFO] [OreExcavator]: Found ore from Ore Set: 'CalamityMod:AerialiteOreDisenchanted', adding to whitelist.
+[01:07:02.442] [Main Thread/INFO] [OreExcavator]: Found ore from Ore Set: 'CalamityMod:AstralOre', adding to whitelist.
+[01:07:02.442] [Main Thread/INFO] [OreExcavator]: Found ore from Ore Set: 'CalamityMod:AuricOre', adding to whitelist.
+[01:07:02.442] [Main Thread/INFO] [OreExcavator]: Found ore from Ore Set: 'CalamityMod:CryonicOre', adding to whitelist.
+[01:07:02.442] [Main Thread/INFO] [OreExcavator]: Found ore from Ore Set: 'CalamityMod:ExodiumOre', adding to whitelist.
+[01:07:02.442] [Main Thread/INFO] [OreExcavator]: Found ore from Ore Set: 'CalamityMod:HallowedOre', adding to whitelist.
+[01:07:02.442] [Main Thread/INFO] [OreExcavator]: Found ore from Ore Set: 'CalamityMod:InfernalSuevite', adding to whitelist.
+[01:07:02.442] [Main Thread/INFO] [OreExcavator]: Found ore from Ore Set: 'CalamityMod:PerennialOre', adding to whitelist.
+[01:07:02.443] [Main Thread/INFO] [OreExcavator]: Found ore from Ore Set: 'CalamityMod:ScoriaOre', adding to whitelist.
+[01:07:02.443] [Main Thread/INFO] [OreExcavator]: Found ore from Ore Set: 'CalamityMod:UelibloomOre', adding to whitelist.
+[01:07:02.443] [Main Thread/INFO] [OreExcavator]: Found ore from Ore Set: 'StarsAbove:CorundumOre', adding to whitelist.
+[01:07:02.443] [Main Thread/INFO] [OreExcavator]: Ore Set Search completed.
+[01:07:02.443] [Main Thread/INFO] [OreExcavator]: Beginning manaual ore search...
+[01:07:02.446] [Main Thread/INFO] [OreExcavator]: Found CalamityMod - Adding 15 hard-coded tiles to whitelist!
+[01:07:02.446] [Main Thread/INFO] [OreExcavator]: Found CalamityMod Ore: 'TileID.ChaoticOre'... Adding to whitelist as 'CalamityMod:ChaoticOre'
+[01:07:02.446] [Main Thread/INFO] [OreExcavator]: Found CalamityMod Ore: 'TileID.CharredOre'... Adding to whitelist as 'CalamityMod:CharredOre'
+[01:07:02.446] [Main Thread/INFO] [OreExcavator]: Found CalamityMod Ore: 'TileID.SeaPrism'... Adding to whitelist as 'CalamityMod:SeaPrism'
+[01:07:02.446] [Main Thread/INFO] [OreExcavator]: Found CalamityMod Ore: 'TileID.SeaPrismCrystals'... Adding to whitelist as 'CalamityMod:SeaPrismCrystals'
+[01:07:02.446] [Main Thread/INFO] [OreExcavator]: Manual CalamityMod whitelisting concluded.
+[01:07:02.452] [Main Thread/INFO] [OreExcavator]: Auto-whitelist runner concluded. Finishing up...
+[01:07:02.453] [Main Thread/INFO] [tML]: Finalizing Content: RecipeBrowser (Recipe Browser) v0.10.11.1
+[01:07:02.453] [Main Thread/INFO] [tML]: Finalizing Content: ShorterRespawn (Shorter Respawn Time) v1.2
+[01:07:02.453] [Main Thread/INFO] [tML]: Finalizing Content: SubworldLibrary (Subworld Library) v2.2.3.1
+[01:07:02.453] [Main Thread/INFO] [tML]: Finalizing Content: StarsAbove (The Stars Above) v2.1.7.1
+[01:07:02.454] [Main Thread/INFO] [tML]: Finalizing Content: StartingBags (Starter Bags) v0.1.4.4
+[01:07:02.454] [Main Thread/INFO] [tML]: Finalizing Content: StartWithBase (Start with base) v0.4.0.0
+[01:07:02.454] [Main Thread/INFO] [tML]: Finalizing Content: WheresMyItems (Where's My Items) v0.8
+[01:07:02.455] [Main Thread/INFO] [tML]: Finalizing Content: WingSlotExtra (Wing Slot Extra) v1.4.5
+[01:07:02.541] [Main Thread/INFO] [tML]: Mods using the most RAM: CalamityMod 218.6 MB, FargowiltasCrossmod 80.0 MB, StarsAbove 35.8 MB
+[01:07:02.699] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/proc/5585/stat'.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at Interop.procfs.TryReadFile(String path, String& contents)
+   at Interop.procfs.TryParseStatFile(String statFilePath, ParsedStat& result)
+   at System.Diagnostics.ProcessManager.CreateProcessInfo(Int32 pid)
+   at System.Diagnostics.ProcessManager.GetProcessInfos(String processNameFilter, String machineName)
+   at System.Diagnostics.Process.GetProcesses(String machineName)
+   at Terraria.ModLoader.Core.MemoryTracking.Finish() in tModLoader\Terraria\ModLoader\Core\MemoryTracking.cs:line 97
+   at Terraria.ModLoader.ModContent.Load(CancellationToken token) in tModLoader\Terraria\ModLoader\ModContent.cs:line 346
+   at Terraria.ModLoader.ModLoader.Load(CancellationToken token) in tModLoader\Terraria\ModLoader\ModLoader.cs:line 134
+   at Terraria.ModLoader.ModLoader.Reload() in tModLoader\Terraria\ModLoader\ModLoader.cs:line 223
+   at Terraria.Main.DedServ() in tModLoader\Terraria\Main.cs:line 4724
+   at Terraria.Program.RunGame() in tModLoader\Terraria\Program.cs:line 264
+   at Terraria.Program.LaunchGame_(Boolean isServer) in tModLoader\Terraria\Program.cs:line 240
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs) in tModLoader\Terraria\Program.cs:line 213
+   at Terraria.MonoLaunch.Main_End(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 79
+   at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 65
+   at Terraria.MonoLaunch.Main(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 72
+
+[01:07:02.708] [Main Thread/INFO] [tML]: RAM physical: tModLoader usage: 959.0 MB, All processes usage: 1.8 GB, Available: 5.9 GB, Total Installed: 7.8 GB
+[01:07:02.708] [Main Thread/INFO] [tML]: RAM virtual: tModLoader usage: 983.4 MB, All processes usage: 2.1 GB
+[01:07:03.484] [Main Thread/DEBUG] [tML]: GlobalItem registration stats. Count: 30, Slots per Entity: 9
 	Instanced: 9, Conditional with slot: 0, Conditional by type: 1, Applies to single type: 1
 	List Permutations: 3, Est Memory Consumption: 304 bytes
-[00:45:00.381] [Main Thread/DEBUG] [tML]: GlobalNPC registration stats. Count: 328, Slots per Entity: 308
+[01:07:04.444] [Main Thread/DEBUG] [tML]: GlobalNPC registration stats. Count: 329, Slots per Entity: 308
 	Instanced: 308, Conditional with slot: 283, Conditional by type: 1, Applies to single type: 198
-	List Permutations: 2970, Est Memory Consumption: 352408 bytes
-[00:45:00.430] [Main Thread/DEBUG] [tML]: GlobalProjectile registration stats. Count: 26, Slots per Entity: 19
+	List Permutations: 2970, Est Memory Consumption: 354728 bytes
+[01:07:04.544] [Main Thread/DEBUG] [tML]: GlobalProjectile registration stats. Count: 26, Slots per Entity: 19
 	Instanced: 19, Conditional with slot: 6, Conditional by type: 0, Applies to single type: 4
 	List Permutations: 31, Est Memory Consumption: 3512 bytes
-[00:45:00.889] [Main Thread/INFO] [tML]: Adding Recipes...
-[00:45:01.269] [Main Thread/INFO] [BossChecklist]: The Boss Log Mod Call has been last updated on BossChecklist (v2.0.0). Check out the GitHub Wiki guide to stay updated on the latest changes! Updated Mod.Call documentation for BossChecklist can be found here: https://github.com/JavidPack/BossChecklist/wiki/[1.4.4]-Boss-Log-Entry-Mod-Call
-[00:45:01.269] [Main Thread/INFO] [BossChecklist]: Progression values for vanilla entries have been last updated on BossChecklist (v1.4.0)
-[00:45:01.269] [Main Thread/INFO] [BossChecklist]: NoLogging
-[00:45:04.494] [Main Thread/INFO] [tML]: Mod Load Completed in 69913ms
-[00:45:04.505] [.NET TP Worker/INFO] [Terraria]: Loading World: Nyxane's, IsCloud=False, Width: 8400, Height: 2400, Evil: 1, GameMode: 1
-[00:45:04.574] [.NET TP Worker/INFO] [StatusText]: Loading world data
-[00:45:07.982] [.NET TP Worker/INFO] [StatusText]: Settling liquids
-[00:45:09.088] [Main Thread/INFO] [Terraria]: Running engine preload...
-[00:45:09.088] [Main Thread/INFO] [Terraria]: Listening on port 7777
-[00:45:09.090] [Main Thread/INFO] [StatusText]: Starting server...
-[00:45:09.162] [Main Thread/INFO] [StatusText]: Server started
-[00:45:09.180] [.NET TP Worker/DEBUG] [tML]: SSDP search line separator: CRLF
-[00:45:19.010] [.NET TP Worker/DEBUG] [tML]: Web Request: https://raw.githubusercontent.com/Dummiez/tModLoader-WingSlotExtra/main/build.txt
-[00:54:15.856] [Main Thread/INFO] [StatusText]: Saving world data
-[00:54:16.156] [Main Thread/INFO] [StatusText]: Validating world save
-[00:54:16.244] [Main Thread/INFO] [StatusText]: Backing up world file
-[00:54:16.308] [Main Thread/INFO] [StatusText]: Saving modded world data
+[01:07:05.292] [Main Thread/INFO] [tML]: Adding Recipes...
+[01:07:05.610] [Main Thread/INFO] [BossChecklist]: The Boss Log Mod Call has been last updated on BossChecklist (v2.0.0). Check out the GitHub Wiki guide to stay updated on the latest changes! Updated Mod.Call documentation for BossChecklist can be found here: https://github.com/JavidPack/BossChecklist/wiki/[1.4.4]-Boss-Log-Entry-Mod-Call
+[01:07:05.611] [Main Thread/INFO] [BossChecklist]: Progression values for vanilla entries have been last updated on BossChecklist (v1.4.0)
+[01:07:05.611] [Main Thread/INFO] [BossChecklist]: NoLogging
+[01:07:07.927] [Main Thread/INFO] [tML]: Mod Load Completed in 115397ms
+[01:07:07.932] [.NET TP Worker/INFO] [Terraria]: Loading World: Nyxane's, IsCloud=False, Width: 8400, Height: 2400, Evil: 1, GameMode: 1
+[01:07:07.950] [.NET TP Worker/INFO] [StatusText]: Loading world data
+[01:07:12.011] [.NET TP Worker/INFO] [StatusText]: Settling liquids
+[01:07:13.862] [Main Thread/INFO] [Terraria]: Running engine preload...
+[01:07:13.863] [Main Thread/INFO] [Terraria]: Listening on port 7777
+[01:07:13.867] [Main Thread/INFO] [StatusText]: Starting server...
+[01:07:14.073] [Main Thread/INFO] [StatusText]: Server started
+[01:07:14.098] [.NET TP Worker/DEBUG] [tML]: SSDP search line separator: CRLF
+[01:07:23.260] [.NET TP Worker/DEBUG] [tML]: Web Request: https://raw.githubusercontent.com/Dummiez/tModLoader-WingSlotExtra/main/build.txt
+[01:08:33.878] [TCP Listen Thread/INFO] [Terraria]: 127.0.0.1:51550 is connecting...
+[01:08:33.882] [Main Thread/INFO] [tML]: tModLoader RAM usage has increased: 1.8 GB
+[01:08:37.004] [Main Thread/DEBUG] [tML]: ILHook Terraria.Main::DoDraw(GameTime) added by Luminance
+[01:08:37.035] [Main Thread/DEBUG] [tML]: Hook Terraria.GameContent.UI.Elements.UIWorldListItem::.ctor(WorldFileData, int, bool) added by FargowiltasSouls
+[01:09:07.475] [Main Thread/INFO] [Network]: [0][127.0.0.1:51550 (Anonymous)] Terminating: Timeout
+[01:09:07.476] [Server Loop Thread/INFO] [Network]: [0][127.0.0.1:51550 (Anonymous)] Closing TcpSocket
+[01:13:02.596] [TCP Listen Thread/INFO] [Terraria]: 127.0.0.1:56534 is connecting...
+[01:13:09.665] [Server Loop Thread/INFO] [Network]: [0][127.0.0.1:56534 (Anonymous)] Terminating: Connection lost
+[01:13:09.666] [Server Loop Thread/INFO] [Network]: [0][127.0.0.1:56534 (Anonymous)] Closing TcpSocket
+[01:13:17.764] [TCP Listen Thread/INFO] [Terraria]: 127.0.0.1:40098 is connecting...
+[01:13:47.781] [Main Thread/INFO] [Network]: [0][127.0.0.1:40098 (Anonymous)] Terminating: Timeout
+[01:13:47.782] [Server Loop Thread/INFO] [Network]: [0][127.0.0.1:40098 (Anonymous)] Closing TcpSocket
+[01:14:30.339] [Main Thread/INFO] [StatusText]: Saving world data
+[01:14:30.628] [Main Thread/INFO] [StatusText]: Validating world save
+[01:14:30.707] [Main Thread/INFO] [StatusText]: Backing up world file
+[01:14:30.766] [Main Thread/INFO] [StatusText]: Saving modded world data
