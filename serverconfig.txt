@@ -35,7 +35,6 @@
 
 #remove the # in front of commands to enable them.
 
-tmlsavedirectory=./
 #Load a world and automatically start the server.
 world=./Worlds/Nyxane's.wld
 

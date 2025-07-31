@@ -69,6 +69,8 @@ launch_args="$launch_args -nosteam"
 
 # Always use serverconfig.txt
 launch_args="$launch_args -config serverconfig.txt"
+# Force tModLoader save directory to this server folder
+launch_args="$launch_args -tmlsavedirectory ./"
 
 # Pass through any additional arguments (except -steam, -nosteam, -config)
 for arg in "$@"; do
