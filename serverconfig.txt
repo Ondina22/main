@@ -88,6 +88,7 @@ priority=0
 
 #Sets the folder where manually installed mods will be loaded from.
 modpath=./Mods
+tmlsavedirectory=./
 
 #Sets the mod pack to load, causing only the specified mods to load. 
 #modpack=MyModpack
