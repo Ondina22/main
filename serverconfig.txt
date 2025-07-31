@@ -35,6 +35,7 @@
 
 #remove the # in front of commands to enable them.
 
+tmlsavedirectory=./
 #Load a world and automatically start the server.
 world=./Worlds/Nyxane's.wld
 
@@ -88,7 +89,6 @@ priority=0
 
 #Sets the folder where manually installed mods will be loaded from.
 modpath=./Mods
-tmlsavedirectory=./
 
 #Sets the mod pack to load, causing only the specified mods to load. 
 #modpack=MyModpack
