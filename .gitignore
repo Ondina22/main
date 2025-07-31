@@ -2,7 +2,7 @@
 .env
 .env.local
 .env.*.local
-/workspaces/main/tModLoader-Logs/environment-server.log
+tModLoader-Logs/environment-server.log
 # IDE files
 .vscode/
 .idea/
