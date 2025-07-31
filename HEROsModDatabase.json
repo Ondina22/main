@@ -1,0 +1,35 @@
+{
+  "players": [
+    {
+      "ID": 0,
+      "username": "nyxane",
+      "password": "commandoco",
+      "group": -1
+    }
+  ],
+  "groups": [
+    {
+      "ID": 0,
+      "name": "Default",
+      "color": "255, 255, 255, 255",
+      "permissions": [
+        "ModifyTerrain",
+        "SpawnBosses"
+      ]
+    }
+  ],
+  "worlds": [
+    {
+      "worldID": 854854094,
+      "name": "Nyxane's",
+      "BanDestructiveExplosives": false,
+      "TimePaused": false,
+      "TimePausedTime": 0.0,
+      "GraveStonesDisabled": false,
+      "NPCSpawnsDiabled": false,
+      "regions": [],
+      "waypoints": []
+    }
+  ],
+  "version": "0.4.17.1"
+}
