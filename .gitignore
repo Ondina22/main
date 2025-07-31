@@ -30,3 +30,6 @@ obj/
 
 # Sensitive data
 serverconfig.txt 
+# Oversized mod files (exceed GitHub 100MB limit)
+Mods/CalamityModMusic.tmod
+Mods/StarsAbove.tmod
